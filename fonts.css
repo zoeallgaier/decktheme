@@ -14,6 +14,7 @@
     font-weight: 300;
 }
 
+/* ── Instrument Serif: all header/title/name elements ── */
 .DialogHeader,
 [class*="DialogHeader"],
 [class*="DialogSubHeader"],
@@ -33,13 +34,47 @@
 [class*="_PageTitle_"],
 [class*="_Heading_"],
 [class*="RecentGamesHeader"],
+[class*="CarouselGameLabel"],
+[class*="CarouselGameLabelWrapper"],
+[class*="SubMessage"],
 .gamepadtabbedpage_Tab_3eEbS {
-    font-family: var(--font-display) !important;
-    font-weight: normal;
+    font-family: 'Instrument Serif', Georgia, serif !important;
+    font-weight: normal !important;
 }
 
-/* SVG game titles — must target <text> directly */
+/* SVG game titles — font-family must go on <text> directly */
+svg text,
 [class*="CarouselGameLabel"] text,
-[class*="SVGTitle"] text {
-    font-family: var(--font-display) !important;
+[class*="SVGTitle"] text,
+[class*="GameLabel"] text {
+    font-family: 'Instrument Serif', Georgia, serif !important;
+}
+
+/* ── Size scale for visual hierarchy ── */
+.DialogHeader,
+[class*="DialogHeader"] {
+    font-size: 28px !important;
+}
+
+[class*="DialogSubHeader"] {
+    font-size: 20px !important;
+}
+
+[class*="_SectionHeader_"],
+[class*="SectionTitle"],
+[class*="AppGridSectionHeader"],
+[class*="RecentGamesHeader"],
+[class*="basicappdetailssectionstyler_CollectionsHeader"] {
+    font-size: 22px !important;
+}
+
+[class*="AppGridSectionLabel"],
+[class*="appdetailssectionheader_LabelText"],
+[class*="appfilterpane_SearchBucketLabel"] {
+    font-size: 18px !important;
+}
+
+[class*="CarouselGameLabel"],
+[class*="CarouselGameLabelWrapper"] {
+    font-size: 26px !important;
 }
