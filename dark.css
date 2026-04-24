@@ -3,12 +3,12 @@
     --accent: var(--accent-dark);
     --on-accent: var(--on-accent-dark);
 
-    /* Neutral surfaces — no color tint */
-    --bg: #161616;
-    --bg-raised: #1e1e1e;
-    --bg-panel: #141414;
-    --bg-hover: #2a2a2a;
-    --bg-active: #363636;
+    /* Neutral surfaces — true black for LCD */
+    --bg: #000000;
+    --bg-raised: #0d0d0d;
+    --bg-panel: #000000;
+    --bg-hover: #1a1a1a;
+    --bg-active: #242424;
 
     /* Text */
     --text: #e8e8e8;
@@ -16,8 +16,8 @@
     --text-disabled: #555555;
 
     /* Borders */
-    --border: #2d2d2d;
-    --separator: #222222;
+    --border: #222222;
+    --separator: #161616;
 
     /* Error */
     --error: #ff6b6b;

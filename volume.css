@@ -1,71 +1,26 @@
-/* Volume popup overlay */
-
+/* Volume popup */
 .audio_VolumePopin_2iUUM {
-    background: color-mix(in srgb, var(--bg-raised) 88%, transparent);
-    backdrop-filter: blur(24px) saturate(1.2);
-    -webkit-backdrop-filter: blur(24px) saturate(1.2);
-    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2), 0 1px 4px rgba(0, 0, 0, 0.12);
+    background: color-mix(in srgb, var(--bg-raised) 92%, transparent);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
     border-radius: var(--radius-xl);
-    padding-right: 10px;
+    padding: 8px 12px;
 }
 
-/* Hide icons — let the track speak */
-.audio_VolumePopin_2iUUM .gamepadslider_SliderControlWithIcon_2M8Pt .gamepadslider_Icon_21uKi,
+/* Hide icons */
+.audio_VolumePopin_2iUUM .gamepadslider_Icon_21uKi,
 .audio_VolumePopin_2iUUM .gamepaddialog_FieldIcon_1sC68 {
     display: none;
 }
 
-/* Slider control container */
-.audio_VolumePopin_2iUUM .gamepadslider_SliderControl_3o137 {
-    height: fit-content;
-    margin: 10px 0;
-    background: var(--bg-hover);
-    border-top-right-radius: var(--radius-xl);
-    border-bottom-right-radius: var(--radius-xl);
-    width: 100%;
-}
-
-.audio_VolumePopin_2iUUM .audio_VolumeSliderPosition_1_hv3 {
-    padding-left: 7px;
-    padding-right: 7px;
-    overflow: visible;
-}
-
 /* Slider track */
-.audio_VolumePopin_2iUUM .gamepadslider_SliderTrack_Mq25N {
-    overflow: visible;
-    margin-right: 5%;
-    width: 95%;
-}
-
 .audio_VolumePopin_2iUUM .gamepadslider_SliderTrack_Mq25N::before {
     border-radius: var(--radius-pill);
-    height: 400%;
-    margin-top: -9px;
-    width: calc(var(--normalized-width-handle) + 24px);
+    height: 6px;
 }
 
-/* Volume icon after slider (speaker icon mask) */
-.audio_VolumePopin_2iUUM .gamepadslider_SliderTrack_Mq25N::after {
-    content: "";
-    position: absolute;
-    --normalized-fill-start: calc(100% * min(var(--normalized-slider-value), var(--normalized-slider-origin)));
-    --normalized-fill-end: calc(100% * max(var(--normalized-slider-value), var(--normalized-slider-origin)));
-    --normalized-width-handle: calc(var(--normalized-fill-end) - var(--normalized-fill-start));
-    left: calc(var(--normalized-fill-start) + var(--normalized-width-handle) + 4px);
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 16px;
-    margin-top: -9px;
-    -webkit-mask-position: center;
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-size: contain;
-    background: var(--on-accent);
-    height: 24px;
-}
-
-/* Hide animation */
+/* Hide timer animation */
 .audio_VolumePopin_2iUUM.audio_VolumePopinHidden_1OwmL {
     animation: anim_extend_volume_timer 3s;
 }
