@@ -95,15 +95,18 @@
 
 .downloadgraph_Label_34H1w,
 .downloads_SectionTitle_qq2xI .downloads_Count_1CGnw,
+._5TdA4FjU9OYsTIaHzloD .eXF8xL2LUtzeWMbK-FSRz,
+._2sCvZTD6ZTZz3p9_ekH_gI ._1r3ouwFT2-tsTAcnXYZ6NU ._1-Mr1M0nO5UEnqLWSR-uki {
+    color: var(--text-secondary);
+}
+
 .downloads_SectionList_OINnO,
 .downloads_AutoUpdateHours_117rQ,
 .downloads_SectionItemStatus_1Sygg,
 .downloads_ProgressDetails_sv3ZH .downloads_Value_1dHjj.downloads_InProgress_3Wavc,
 .downloadgraph_Throttle_38T9T .downloadgraph_ThrottleValue_3XTah,
-.downloads_ContentType_Rgy-7,
-._5TdA4FjU9OYsTIaHzloD .eXF8xL2LUtzeWMbK-FSRz,
-._2sCvZTD6ZTZz3p9_ekH_gI ._1r3ouwFT2-tsTAcnXYZ6NU ._1-Mr1M0nO5UEnqLWSR-uki {
-    color: var(--text-secondary);
+.downloads_ContentType_Rgy-7 {
+    color: var(--text);
 }
 
 .downloads_SectionItem_1VNuY .downloads_Name_35eOQ {
@@ -131,8 +134,9 @@
 /* Focused download buttons */
 .downloads_SectionItemWrapper_21P7c.gpfocus .downloads_SectionItem_1VNuY .downloads_Button_3oavR.DialogButton:enabled,
 .downloads_SectionItemWrapper_21P7c.gpfocus .downloads_SectionItem_1VNuY.downloads_Active_IbePL .downloads_Button_3oavR.DialogButton:enabled {
-    background: var(--bg-active);
+    background: color-mix(in srgb, var(--accent) 10%, transparent);
     color: var(--text);
+    border-color: var(--accent);
 }
 
 /* Row hover/focus */
@@ -140,7 +144,7 @@
 .downloads_SectionItemWrapper_21P7c .downloads_SectionItem_1VNuY:hover,
 .downloads_SectionItemWrapper_21P7c.gpfocus .downloads_SectionItem_1VNuY.downloads_Active_IbePL {
     animation: none;
-    background: var(--bg-hover);
+    background: color-mix(in srgb, var(--accent) 10%, transparent);
 }
 
 .BasicUI .downloads_Active_IbePL .downloads_SectionList_OINnO,

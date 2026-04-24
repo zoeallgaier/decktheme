@@ -96,7 +96,7 @@
 }
 
 .appdetailsfriendssection_FriendsSectionSubHeading_30EfX {
-    color: var(--text-secondary);
+    color: var(--text);
 }
 
 .BasicUI .appdetailsplaysection_PlayBarDetailLabel_2TYVG,
@@ -129,11 +129,11 @@
 
 .appdetailsgameinfopanel_AssociationList_2ZcNQ .appdetailsgameinfopanel_Label_1vYL2,
 .appdetailsgameinfopanel_Release_1OWQ9 .appdetailsgameinfopanel_Label_1vYL2 {
-    color: var(--text-secondary);
+    color: var(--text);
 }
 
 .appdetailsfeatureicon_Label_1VoVz {
-    color: var(--text-secondary);
+    color: var(--text);
 }
 
 /* Tab header */
@@ -173,7 +173,7 @@
 
 /* Grid section labels */
 .appgrid_AppGridSectionLabel_2hvQb {
-    color: var(--text-secondary);
+    color: var(--text);
 }
 
 .appgrid_AppGridSectionHeader_3bWIS .appgrid_Rule_3pJqX {
