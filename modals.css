@@ -63,7 +63,7 @@
     border-radius: var(--radius-sm);
 }
 
-/* Primary action items — focused (slightly pressed look) */
+/* Primary action items — focused (keep accent, add inset ring for press feedback) */
 .gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_Focused_X813r.gamepadcontextmenu_Emphasis_1viOG,
 .gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_Focused_X813r.Download,
 .gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_Focused_X813r.Update,
@@ -78,8 +78,9 @@
 .gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_Focused_X813r.Play,
 .gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_Focused_X813r.Resume,
 .gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_Focused_X813r.BorrowApp {
-    background: var(--bg-active);
-    color: var(--text);
+    background: var(--accent);
+    color: var(--on-accent);
+    box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
 }
 
 /* Destructive action — focused */
@@ -197,7 +198,7 @@
 
 /* Filter modal */
 .steamdeckcompatfilter_CompatFilterDialogRow_O7cW3 {
-    background: var(--bg-hover);
+    background: transparent;
     color: var(--text);
 }
 
