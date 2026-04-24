@@ -24,7 +24,7 @@
 }
 
 .audio_VolumePopin_2iUUM .gamepadslider_SliderTrack_Mq25N::before {
-    border-radius: 50px;
+    border-radius: var(--radius-pill);
     height: 400%;
     margin-top: -9px;
     width: calc(var(--normalized-width-handle) + 24px);
@@ -35,7 +35,7 @@
     backdrop-filter: blur(24px) saturate(1.3);
     -webkit-backdrop-filter: blur(24px) saturate(1.3);
     box-shadow: 0 4px 24px rgba(0, 0, 0, 0.18), 0 1px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 25px;
+    border-radius: var(--radius-xl);
     padding-right: 10px;
 }
 
@@ -48,8 +48,8 @@
     height: fit-content;
     margin: 10px 0;
     background: var(--aquadeck-primary-fixed);
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-top-right-radius: var(--radius-xl);
+    border-bottom-right-radius: var(--radius-xl);
     width: 100%;
 }
 

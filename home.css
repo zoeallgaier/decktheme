@@ -1,17 +1,23 @@
-
-.basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf, /* Game Glow */
-.recentlycompleted_PatchNotes_2_b6L /* Recently Updated Text */ {
-    display: none;
+/* === Hidden Sections === */
+.basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf,
+.recentlycompleted_PatchNotes_2_b6L,
+.recentlycompleted_RecentlyCompleted_3fDIR,
+.homestorecarousel_StoreCarouselCtn_3zVCV,
+.marketingmessages_MarketingMessages_jdr42,
+[class*="gamepadhomewhatsnew_WhatsNew"] {
+    display: none !important;
 }
 
+/* === Scroll Area === */
 .gamepadhome_ScrollArea_3PhGY {
-    background: var(--aquadeck-surface-container);
+    background: var(--aquadeck-surface);
 }
 
 .gamepadhome_TabbedContent_cE1Sa {
     background: transparent;
 }
 
+/* === Tab Navigation === */
 .gamepadtabbedpage_Tab_3eEbS {
     color: var(--aquadeck-on-surface);
     border-radius: 0;
@@ -23,11 +29,7 @@
     background: transparent;
 }
 
-.gamepadtabbedpage_TabCount_1ui4I,
-.gamepadhomerecentgames_RecentGamesHeader_35iRe,
-.BasicUI .recentlycompleted_RecentlyCompleted_3fDIR .recentlycompleted_Header_NhBU2,
-.BasicUI .homestorecarousel_StoreCarouselCtn_3zVCV .homestorecarousel_Header_xpRXv,
-.BasicUI .marketingmessages_MarketingMessages_jdr42 .marketingmessages_Header_1QCdV {
+.gamepadtabbedpage_TabCount_1ui4I {
     color: var(--aquadeck-on-surface);
 }
 
@@ -40,7 +42,7 @@
 .gamepadtabbedpage_Tab_3eEbS.gamepadtabbedpage_Selected_3Gp1b {
     border-bottom: 4px solid var(--aquadeck-primary);
     color: var(--aquadeck-primary);
-    background: var(--aquadeck-surface-container-highest);
+    background: transparent;
     padding-bottom: 6px;
 }
 
@@ -54,9 +56,17 @@
 }
 
 .gamepadtabbedpage_FixCenterAlignScroll_1CJeU {
-    column-gap: 0px;
+    column-gap: 0;
 }
 
+/* === Library Tab Header Shadow === */
+.gamepadtabbedpage_GamepadTabbedPage_3IBLc.gamepadtabbedpage_IsUnderHeader_31Zle .gamepadtabbedpage_TabHeaderRowWrapper_2Jobs::before,
+.gamepadtabbedpage_TabHeaderRowWrapper_2Jobs.gamepadtabbedpage_ScrolledDown_1jNhb::before {
+    box-shadow: none;
+    background: var(--aquadeck-surface-container);
+}
+
+/* === Game Portrait / Badges === */
 .appdetailsfriendssection_FriendsPlayingNowBadge_38sNQ.appdetailsfriendssection_InFriendsTab_15Vpl,
 .appdetailsfriendssection_FriendsPlayingNowBadge_38sNQ.appdetailsfriendssection_InFriendsTab_15Vpl.appdetailsfriendssection_TabSelected_mHKj-,
 .appportrait_AppPortraitBanner_N8aJr {
@@ -78,159 +88,40 @@
     box-shadow: none;
 }
 
+/* === Focus Highlight === */
 :root {
     --flangrande-base-highlight-color: var(--aquadeck-secondary);
     --flangrande-blinked-highlight-color: var(--flangrande-base-highlight-color);
     --flangrande-start-highlight-color: var(--flangrande-base-highlight-color);
 }
 
-.basicgamecarousel_BasicGameCarouselItem_3YYQ9 .basicgamecarousel_TextBoxCarouselContents_3bvCH {
-    background: var(--aquadeck-tertiary);
-    color: var(--aquadeck-on-tertiary);
+/* === Hero Carousel — frosted glass title in bottom-left corner === */
+.basicgamecarousel_BasicGameCarouselItem_3YYQ9 {
+    position: relative;
 }
 
+.basicgamecarousel_BasicGameCarouselItem_3YYQ9 .basicgamecarousel_TextBoxCarouselContents_3bvCH {
+    background: color-mix(in srgb, var(--aquadeck-surface-container-highest) 78%, transparent) !important;
+    backdrop-filter: blur(16px) saturate(1.2);
+    -webkit-backdrop-filter: blur(16px) saturate(1.2);
+    color: var(--aquadeck-on-surface);
+    border-radius: var(--radius-xl);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15), 0 1px 3px rgba(0, 0, 0, 0.08);
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    right: auto;
+    z-index: 5;
+    padding: 14px 20px;
+    max-width: 300px;
+}
+
+/* === Tab Page Background === */
 .gamepadtabbedpage_GamepadTabbedPage_3IBLc {
     background: var(--aquadeck-surface);
 }
 
-/* Recently Used On This Device */
-.recentlycompleted_RecentlyCompletedItem_3OC7i {
-    background: var(--aquadeck-surface-container-highest);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.06);
-    border-radius: 5px;
-    height: fit-content !important;
-}
-
-.recentlycompleted_GameIconAndName_2RTo4 .recentlycompleted_GameName_1EIQL {
-    color: var(--aquadeck-primary);
-}
-
-.recentlycompleted_DownloadInfo_1wLpm {
-    color: var(--aquadeck-on-surface);
-}
-
-.recentlycompleted_DownloadInfo_1wLpm .recentlycompleted_Bytes_TH3M8 {
-    color: var(--aquadeck-secondary);
-}
-
-.recentlycompleted_BottomSection_3LyF6 {
-    background: transparent;
-    height: fit-content;
-    position: absolute;
-    left: 40px;
-    top: 22px;
-}
-
-.recentlycompleted_GameName_1EIQL {
-    margin-top: -15px;
-}
-
-.recentlycompleted_TopSection_2wVB- {
-    padding: 10px;
-}
-
-.recentlycompleted_RecentlyCompletedCarousel_2jcru {
-    height: 55px !important;
-}
-
-
-
-/* Update Card */
-
-.gamepadhomewhatsnew_EventImage_116GS {
-    border-radius: 20px 20px 0 0;
-}
-
-.gamepadhomewhatsnew_EventType_1f0dZ {
-    position: absolute;
-    top: 8px;
-    left: 10px;
-    z-index: 1;
-    width: fit-content;
-    background: var(--aquadeck-secondary);
-    color: var(--aquadeck-on-secondary) !important;
-    padding: 3px 10px 9px 10px;
-    border-radius: 20px;
-}
-.gamepadhomewhatsnew_EventInfo_6TGe7 .partnereventdisplay_EventDetailTimeInfo_3Z41s {
-    order: 2;
-}
-.gamepadhomewhatsnew_EventInfo_6TGe7 .gamepadhomewhatsnew_Title_1QLHG {
-    order: 3;
-}
-
-.gamepadhomewhatsnew_EventInfo_6TGe7 .gamepadhomewhatsnew_GameIconAndName_1jXSh {
-    order: 1;
-}
-
-.partnereventdisplay_VerticalLocalDateAndTime_1QFMN {
-    flex-direction: row;
-}
-
-.gamepadhomewhatsnew_Inner_3Rfji {
-    color: var(--aquadeck-on-surface);
-}
-
-.localdateandtime_ShortDateAndTime_4K3Bl {
-    color: var(--aquadeck-secondary);
-}
-
-.localdateandtime_RightSideTitles_3sPON {
-    color: var(--aquadeck-on-surface-variant);
-    font-weight: bold;
-}
-
-.gamepadhomewhatsnew_GameIconAndName_1jXSh .gamepadhomewhatsnew_GameName_3H9W- {
-    color: var(--aquadeck-primary);
-    font-weight: bold;
-}
-
-.localdateandtime_ActiveEvent_2ZcVE .localdateandtime_ActiveEventCallOut__y2DQ {
-    color: var(--aquadeck-on-primary);
-    background: var(--aquadeck-primary);
-}
-
-.gamepadhomewhatsnew_EventPreviewContainer_1ltOY.gpfocus .gamepadhomewhatsnew_Inner_3Rfji {
-    font-size: 0.75em;
-    white-space: nowrap;
-}
-
-.gamepadhomewhatsnew_EventPreviewContainer_1ltOY {
-    background: var(--aquadeck-surface-container-highest);
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.14), 0 1px 4px rgba(0, 0, 0, 0.08);
-    border-radius: 20px;
-    height: 93%;
-}
-
-.gamepadhomewhatsnew_EventInfo_6TGe7 {
-    background: transparent !important;
-}
-
-.gamepadhomewhatsnew_EventPreviewContainer_1ltOY.gpfocus .gamepadhomewhatsnew_EventInfo_6TGe7 {
-    margin-top: -80px;
-    transition: 300ms;
-    transition-property: all;
-}
-
-.gamepadhomewhatsnew_Darkener_1n_1X {
-    background: var(--aquadeck-surface-container-lowest);
-    mix-blend-mode: difference;
-}
-
-.gamepadhomewhatsnew_EventPreviewOuterWrapper_10b1V.gamepadhomewhatsnew_OuterWrapper_3DpEz:hover .gamepadhomewhatsnew_Darkener_1n_1X, .gpfocus .gamepadhomewhatsnew_Darkener_1n_1X {
-    opacity: 0.7;
-}
-
-.gamepadhomewhatsnew_EventImageWrapper_XLJ9p {
-    overflow: visible;
-}
-
-.gamepadhomewhatsnew_EventSummary_UE_Ms {
-    color: var(--aquadeck-on-surface);
-    margin-top: 165px;
-    font-size: 0.95em;
-}
-
+/* === Loading Throbber === */
 .loadingthrobber_ContainerBackground_2ngG3 {
     background: var(--aquadeck-surface);
 }

@@ -19,6 +19,9 @@
     "BPM Settings Storage No Padding": {}
   },
   "inject": {
+    "fonts.css": [
+      "all"
+    ],
     "quickaccess.css": [
       "bigpicture",
       "bigpictureoverlay"
@@ -77,16 +80,6 @@
             "all"
           ]
         },
-        "Blueberry": {
-          "palettes/blueberry.css": [
-            "all"
-          ]
-        },
-        "Grape": {
-          "palettes/grape.css": [
-            "all"
-          ]
-        },
         "Tangerine": {
           "palettes/tangerine.css": [
             "all"
@@ -109,11 +102,6 @@
         },
         "Ruby": {
           "palettes/ruby.css": [
-            "all"
-          ]
-        },
-        "Sage": {
-          "palettes/sage.css": [
             "all"
           ]
         },

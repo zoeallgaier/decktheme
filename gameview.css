@@ -32,7 +32,7 @@
 }
 
 .BasicUI .appactionbutton_ButtonChild_2AzIX {
-    border-radius: 5px !important;
+    border-radius: var(--radius-sm) !important;
     color: var(--aquadeck-on-surface);
 }
 
@@ -47,12 +47,12 @@
     content: ' ';
     width: calc(100% - 4px);
     height: calc(100% - 4px);
-    border-radius: 5px;
+    border-radius: var(--radius-sm);
 }
 
 .BasicUI .appdetailsplaysection_MenuButton_3qDWQ,
 .appactionbutton_ShutdownAppButton_1WVYD {
-    border-radius: 5px;
+    border-radius: var(--radius-sm);
     background: transparent;
 }
 
@@ -133,7 +133,7 @@
 .appdetailsgameinfopanel_DeckVerifiedInfo_IIJei {
     background: var(--aquadeck-primary-container);
     color: var(--aquadeck-on-primary-container);
-    border-radius: 25px;
+    border-radius: var(--radius-pill);
 }
 
 .BasicUI .appdetailsprimarylinkssection_Anchor_DY4_w {
@@ -144,7 +144,7 @@
 .appdetailsprimarylinkssection_Anchor_DY4_w .appdetailsprimarylinkssection_Link_1b6LY {
     background: var(--aquadeck-primary);
     color: var(--aquadeck-on-primary);
-    border-radius: 25px;
+    border-radius: var(--radius-pill);
 }
 
 .BasicUI .appdetailsprimarylinkssection_Anchor_DY4_w .appdetailsprimarylinkssection_Link_1b6LY .appdetailsprimarylinkssection_Text_2sNDj {
@@ -156,7 +156,7 @@
 .BasicUI .appportrait_LibraryItemBoxSubscript_1LJqx {
     background: var(--aquadeck-primary-container);
     color: var(--aquadeck-on-primary-container);
-    border-radius: 25px;
+    border-radius: var(--radius-pill);
 }
 
 .appgrid_AppGridSectionLabel_2hvQb {
