@@ -1,27 +1,19 @@
-/* === Hidden Sections === */
-.basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf,
-.recentlycompleted_PatchNotes_2_b6L,
-.recentlycompleted_RecentlyCompleted_3fDIR,
-.homestorecarousel_StoreCarouselCtn_3zVCV,
-.marketingmessages_MarketingMessages_jdr42,
-[class*="gamepadhomewhatsnew_WhatsNew"] {
-    display: none !important;
-}
+/* Main library / home screen */
 
-/* === Scroll Area === */
+/* Page background */
 .gamepadhome_ScrollArea_3PhGY {
-    background: var(--aquadeck-surface);
+    background: var(--bg);
 }
 
 .gamepadhome_TabbedContent_cE1Sa {
     background: transparent;
 }
 
-/* === Tab Navigation === */
+/* Tab navigation */
 .gamepadtabbedpage_Tab_3eEbS {
-    color: var(--aquadeck-on-surface);
+    color: var(--text-secondary);
     border-radius: 0;
-    border-bottom: 2px solid var(--aquadeck-outline);
+    border-bottom: 2px solid var(--separator);
     padding-bottom: 8px;
 }
 
@@ -30,25 +22,25 @@
 }
 
 .gamepadtabbedpage_TabCount_1ui4I {
-    color: var(--aquadeck-on-surface);
+    color: var(--text-secondary);
 }
 
 .gamepadtabbedpage_Tab_3eEbS.gpfocus {
-    background: var(--aquadeck-surface-container-highest);
-    color: var(--aquadeck-on-surface);
+    background: var(--bg-hover);
+    color: var(--text);
     box-shadow: none;
 }
 
 .gamepadtabbedpage_Tab_3eEbS.gamepadtabbedpage_Selected_3Gp1b {
-    border-bottom: 4px solid var(--aquadeck-primary);
-    color: var(--aquadeck-primary);
+    border-bottom: 3px solid var(--accent);
+    color: var(--text);
     background: transparent;
     padding-bottom: 6px;
 }
 
 .gamepadtabbedpage_Tab_3eEbS.gpfocus .gamepadtabbedpage_TabCount_1ui4I,
 .gamepadtabbedpage_Tab_3eEbS.gamepadtabbedpage_Selected_3Gp1b .gamepadtabbedpage_TabCount_1ui4I {
-    color: var(--aquadeck-primary);
+    color: var(--accent);
 }
 
 .gamepadtabbedpage_Tab_3eEbS.gamepadtabbedpage_Selected_3Gp1b:not(.gpfocus) {
@@ -59,28 +51,33 @@
     column-gap: 0;
 }
 
-/* === Library Tab Header Shadow === */
+/* Tab page */
+.gamepadtabbedpage_GamepadTabbedPage_3IBLc {
+    background: var(--bg);
+}
+
+/* Header shadow */
 .gamepadtabbedpage_GamepadTabbedPage_3IBLc.gamepadtabbedpage_IsUnderHeader_31Zle .gamepadtabbedpage_TabHeaderRowWrapper_2Jobs::before,
 .gamepadtabbedpage_TabHeaderRowWrapper_2Jobs.gamepadtabbedpage_ScrolledDown_1jNhb::before {
     box-shadow: none;
-    background: var(--aquadeck-surface-container);
+    background: var(--bg-raised);
 }
 
-/* === Game Portrait / Badges === */
+/* Game portrait banners & badges */
 .appdetailsfriendssection_FriendsPlayingNowBadge_38sNQ.appdetailsfriendssection_InFriendsTab_15Vpl,
 .appdetailsfriendssection_FriendsPlayingNowBadge_38sNQ.appdetailsfriendssection_InFriendsTab_15Vpl.appdetailsfriendssection_TabSelected_mHKj-,
 .appportrait_AppPortraitBanner_N8aJr {
-    background: var(--aquadeck-primary);
-    color: var(--aquadeck-on-primary);
+    background: var(--accent);
+    color: var(--on-accent);
 }
 
 .BasicUI .appportrait_PortraitMessage_3gwMk .appportrait_Message_3CRLA {
-    color: var(--aquadeck-primary) !important;
+    color: var(--accent) !important;
     text-shadow: none;
 }
 
 .basicgamecarousel_SubMessage_1BtXg {
-    color: var(--aquadeck-on-surface) !important;
+    color: var(--text) !important;
     text-shadow: none;
 }
 
@@ -88,40 +85,19 @@
     box-shadow: none;
 }
 
-/* === Focus Highlight === */
+/* Focus highlight (Focus Highlight Color dependency) */
 :root {
-    --flangrande-base-highlight-color: var(--aquadeck-secondary);
+    --flangrande-base-highlight-color: var(--accent);
     --flangrande-blinked-highlight-color: var(--flangrande-base-highlight-color);
     --flangrande-start-highlight-color: var(--flangrande-base-highlight-color);
 }
 
-/* === Hero Carousel — frosted glass title in bottom-left corner === */
-.basicgamecarousel_BasicGameCarouselItem_3YYQ9 {
-    position: relative;
+/* Carousel glow — hide */
+.basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf {
+    display: none;
 }
 
-.basicgamecarousel_BasicGameCarouselItem_3YYQ9 .basicgamecarousel_TextBoxCarouselContents_3bvCH {
-    background: color-mix(in srgb, var(--aquadeck-surface-container-highest) 78%, transparent) !important;
-    backdrop-filter: blur(16px) saturate(1.2);
-    -webkit-backdrop-filter: blur(16px) saturate(1.2);
-    color: var(--aquadeck-on-surface);
-    border-radius: var(--radius-xl);
-    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15), 0 1px 3px rgba(0, 0, 0, 0.08);
-    position: absolute;
-    bottom: 24px;
-    left: 24px;
-    right: auto;
-    z-index: 5;
-    padding: 14px 20px;
-    max-width: 300px;
-}
-
-/* === Tab Page Background === */
-.gamepadtabbedpage_GamepadTabbedPage_3IBLc {
-    background: var(--aquadeck-surface);
-}
-
-/* === Loading Throbber === */
+/* Loading throbber */
 .loadingthrobber_ContainerBackground_2ngG3 {
-    background: var(--aquadeck-surface);
+    background: var(--bg);
 }

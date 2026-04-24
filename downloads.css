@@ -1,3 +1,5 @@
+/* Downloads page */
+
 .downloadgraph_HeroAndLogo_3mZ2r.downloadgraph_Empty_pHDI1 {
     background: transparent;
 }
@@ -5,12 +7,12 @@
 .downloadgraph_GraphAndStats_3KDkL,
 .downloads_DownloadsPage_1bq4x,
 .downloads_ItemListWrapper_1l0Lm {
-    background: var(--aquadeck-surface-container);
+    background: var(--bg-raised);
 }
 
 .downloads_ItemListScrollWrapper_Z6wLC,
 .downloads_SectionItem_1VNuY.downloads_Active_IbePL {
-    background: var(--aquadeck-surface);
+    background: var(--bg-panel);
     border-radius: var(--radius-xl);
     margin: 10px 10px 0 10px;
 }
@@ -19,77 +21,68 @@
     display: none;
 }
 
-.BasicUI ._373v1eWNyaPKhgnea9FZSt
-{
+.BasicUI ._373v1eWNyaPKhgnea9FZSt {
     box-shadow: none;
     margin-top: 30px;
     height: 200px;
     margin-bottom: 10px;
 }
 
-.BasicUI ._1VNuYHM6BPBOJspC6zPf5r.IbePLaw-vSvhG1GTenYFg .kGTS55N3oEbxE7HAgE9ZX
-{
+.BasicUI ._1VNuYHM6BPBOJspC6zPf5r.IbePLaw-vSvhG1GTenYFg .kGTS55N3oEbxE7HAgE9ZX {
     margin-top: 0;
-    height: 100%
+    height: 100%;
 }
 
-/* Download Icons */
-
-.Ayu--dDVVaKmP2gNYPAQ0 ._33jqEbo2sBXJZ08w9BkdEM svg
-{
-    color: var(--aquadeck-primary);
+/* Download graph */
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphLine_3H2JW,
+.downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_Disk_1QHr4 svg {
+    stroke: var(--text-secondary);
 }
 
-._1SyggnJY6qbRSmbZpkK3-H ._1vMU1vG5ZtLihr3mfXUymR._2mLZnQr2HzWQ1K8D8xouc- div 
-{
-    background: var(--aquadeck-primary);
+.downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_Disk_1QHr4 {
+    background: var(--text-secondary);
+}
+
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBarWrapper_gpPxC,
+.downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_Network_33jqE svg,
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBarDownload_OS07N {
+    color: var(--accent);
+}
+
+/* Download icons */
+.Ayu--dDVVaKmP2gNYPAQ0 ._33jqEbo2sBXJZ08w9BkdEM svg {
+    color: var(--accent);
+}
+
+._1SyggnJY6qbRSmbZpkK3-H ._1vMU1vG5ZtLihr3mfXUymR._2mLZnQr2HzWQ1K8D8xouc- div {
+    background: var(--accent);
 }
 
 .Ayu--dDVVaKmP2gNYPAQ0 ._1QHr4A7EN2DgQfJIdu3rTh,
-._1SyggnJY6qbRSmbZpkK3-H ._1vMU1vG5ZtLihr3mfXUymR.HifZB5TP6WNuubp1dzyxS div
-{
-    background: var(--aquadeck-tertiary);
+._1SyggnJY6qbRSmbZpkK3-H ._1vMU1vG5ZtLihr3mfXUymR.HifZB5TP6WNuubp1dzyxS div {
+    background: var(--text-secondary);
 }
 
-/* Local Transfer */
-.fqntpaymdveMMSFkyHYNz .E77_ojZbdMlTc1bWOUTC8
-{
-    background: var(--aquadeck-secondary-container);
+/* Local transfer */
+.fqntpaymdveMMSFkyHYNz .E77_ojZbdMlTc1bWOUTC8 {
+    background: var(--bg-hover);
     margin-top: 10px;
     padding: 0 0 0 15px;
     margin: 10px 10px 0 10px;
     border-radius: var(--radius-xl);
 }
 
-/* Other */
-
+/* Other backgrounds */
 .BasicUI ._373v1eWNyaPKhgnea9FZSt ._3Mbhnlk1Go2j8yCdjthzc7,
 .SEmVpmXrYVl3OxL1sDFTg,
-._1bq4x9pa4-9RLY-dXWUZTp
-{
-    background: var(--aquadeck-surface-container) !important;
+._1bq4x9pa4-9RLY-dXWUZTp {
+    background: var(--bg-raised) !important;
 }
 
-.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphLine_3H2JW,
-.downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_Disk_1QHr4 svg {
-    /* Disk Usage Graph */
-    stroke: var(--aquadeck-tertiary);
-}
-
-.downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_Disk_1QHr4 {
-    background: var(--aquadeck-tertiary);
-}
-
-.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBarWrapper_gpPxC,
-.downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_Network_33jqE svg,
-.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBarDownload_OS07N {
-    /* Network Graph */
-    color: var(--aquadeck-primary);
-}
-
+/* Text colors */
 .downloadgraph_StatsPanel_3mdnp .downloadgraph_Figure_eXF8x,
 .downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_LegendText_1iulC,
-.downloads_SectionTitle_qq2xI .downloads_TitleAndCount_ROxNr .downloads_Title_TK9wv, 
+.downloads_SectionTitle_qq2xI .downloads_TitleAndCount_ROxNr .downloads_Title_TK9wv,
 .downloads_SectionJumpBar_mw7VZ .downloads_TitleAndCount_ROxNr .downloads_Title_TK9wv,
 .downloads_ProgressDetails_sv3ZH .downloads_Value_1dHjj,
 .downloads_ProgressDetails_sv3ZH,
@@ -97,7 +90,7 @@
 .downloadgraph_StatsPanel_3mdnp .downloadgraph_Status_3BdWq,
 .Ayu--dDVVaKmP2gNYPAQ0 ._1iulCOMUxV6sBbqoKo_yXw,
 ._22WcrscaQSqK56PQKgf5YG ._3a973VY2X3US_cZqA9ZgNF {
-    color: var(--aquadeck-on-surface);
+    color: var(--text);
 }
 
 .downloadgraph_Label_34H1w,
@@ -110,36 +103,44 @@
 .downloads_ContentType_Rgy-7,
 ._5TdA4FjU9OYsTIaHzloD .eXF8xL2LUtzeWMbK-FSRz,
 ._2sCvZTD6ZTZz3p9_ekH_gI ._1r3ouwFT2-tsTAcnXYZ6NU ._1-Mr1M0nO5UEnqLWSR-uki {
-    color: var(--aquadeck-on-surface-variant);
+    color: var(--text-secondary);
 }
 
 .downloads_SectionItem_1VNuY .downloads_Name_35eOQ {
-    color: var(--aquadeck-primary);
+    color: var(--text);
 }
 
 .downloads_Rule_1CTr1 {
     opacity: 0;
 }
 
-.downloads_SectionItem_1VNuY .downloads_Button_3oavR, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:enabled, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:active, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:hover, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:enabled:active:hover, .downloads_SectionItem_1VNuY .downloads_Button_3oavR.DialogButton:enabled,
+/* Download buttons */
+.downloads_SectionItem_1VNuY .downloads_Button_3oavR,
+.downloads_SectionItem_1VNuY .downloads_Button_3oavR:enabled,
+.downloads_SectionItem_1VNuY .downloads_Button_3oavR:active,
+.downloads_SectionItem_1VNuY .downloads_Button_3oavR:hover,
+.downloads_SectionItem_1VNuY .downloads_Button_3oavR:enabled:active:hover,
+.downloads_SectionItem_1VNuY .downloads_Button_3oavR.DialogButton:enabled,
 .BasicUI .downloads_SectionItem_1VNuY.downloads_Active_IbePL .downloads_Button_3oavR.DialogButton:enabled,
 .downloads_RemoveAllButton_1GdR5.downloads_RemoveAllButton_1GdR5.DialogButton:enabled {
-    background: var(--aquadeck-primary);
-    color: var(--aquadeck-on-primary);
+    background: var(--accent);
+    color: var(--on-accent);
     border-radius: var(--radius-pill);
 }
 
+/* Focused download buttons */
 .downloads_SectionItemWrapper_21P7c.gpfocus .downloads_SectionItem_1VNuY .downloads_Button_3oavR.DialogButton:enabled,
 .downloads_SectionItemWrapper_21P7c.gpfocus .downloads_SectionItem_1VNuY.downloads_Active_IbePL .downloads_Button_3oavR.DialogButton:enabled {
-    background: var(--aquadeck-inverse-surface);
-    color: var(--aquadeck-inverse-on-surface);
+    background: var(--bg-active);
+    color: var(--text);
 }
 
+/* Row hover/focus */
 .downloads_SectionItemWrapper_21P7c.gpfocus .downloads_SectionItem_1VNuY,
 .downloads_SectionItemWrapper_21P7c .downloads_SectionItem_1VNuY:hover,
 .downloads_SectionItemWrapper_21P7c.gpfocus .downloads_SectionItem_1VNuY.downloads_Active_IbePL {
     animation: none;
-    background: var(--aquadeck-surface-container-highest);
+    background: var(--bg-hover);
 }
 
 .BasicUI .downloads_Active_IbePL .downloads_SectionList_OINnO,
@@ -148,8 +149,9 @@
     animation: none;
 }
 
+/* Progress bar */
 .downloads_SectionItemStatus_1Sygg .downloads_ProgressBar_1vMU1 {
-    background: var(--aquadeck-surface-container-highest);
+    background: var(--bg-active);
 }
 
 .BasicUI .downloads_SectionList_OINnO {

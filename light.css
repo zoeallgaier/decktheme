@@ -1,51 +1,25 @@
 :root {
-    --aquadeck-primary: var(--aquadeck-primary-light);
-    --aquadeck-on-primary: var(--aquadeck-on-primary-light);
-    --aquadeck-primary-container: var(--aquadeck-primary-container-light);
-    --aquadeck-on-primary-container: var(--aquadeck-on-primary-container-light);
-    --aquadeck-primary-fixed: var(--aquadeck-primary-fixed-light);
-    --aquadeck-on-primary-fixed: var(--aquadeck-on-primary-fixed-light);
-    --aquadeck-primary-fixed-dim: var(--aquadeck-primary-fixed-dim-light);
-    --aquadeck-on-primary-fixed-variant: var(--aquadeck-on-primary-fixed-variant-light);
-    --aquadeck-secondary: var(--aquadeck-secondary-light);
-    --aquadeck-on-secondary: var(--aquadeck-on-secondary-light);
-    --aquadeck-secondary-container: var(--aquadeck-secondary-container-light);
-    --aquadeck-on-secondary-container: var(--aquadeck-on-secondary-container-light);
-    --aquadeck-secondary-fixed: var(--aquadeck-secondary-fixed-light);
-    --aquadeck-on-secondary-fixed: var(--aquadeck-on-secondary-fixed-light);
-    --aquadeck-secondary-fixed-dim: var(--aquadeck-secondary-fixed-dim-light);
-    --aquadeck-on-secondary-fixed-variant: var(--aquadeck-on-secondary-fixed-variant-light);
-    --aquadeck-tertiary: var(--aquadeck-tertiary-light);
-    --aquadeck-on-tertiary: var(--aquadeck-on-tertiary-light);
-    --aquadeck-tertiary-container: var(--aquadeck-tertiary-container-light);
-    --aquadeck-on-tertiary-container: var(--aquadeck-on-tertiary-container-light);
-    --aquadeck-tertiary-fixed: var(--aquadeck-tertiary-fixed-light);
-    --aquadeck-on-tertiary-fixed: var(--aquadeck-on-tertiary-fixed-light);
-    --aquadeck-tertiary-fixed-dim: var(--aquadeck-tertiary-fixed-dim-light);
-    --aquadeck-on-tertiary-fixed-variant: var(--aquadeck-on-tertiary-fixed-variant-light);
-    --aquadeck-error: var(--aquadeck-error-light);
-    --aquadeck-error-container: var(--aquadeck-error-container-light);
-    --aquadeck-on-error: var(--aquadeck-on-error-light);
-    --aquadeck-on-error-container: var(--aquadeck-on-error-container-light);
-    --aquadeck-background: var(--aquadeck-background-light);
-    --aquadeck-on-background: var(--aquadeck-on-background-light);
-    --aquadeck-outline: var(--aquadeck-outline-light);
-    --aquadeck-inverse-on-surface: var(--aquadeck-inverse-on-surface-light);
-    --aquadeck-inverse-surface: var(--aquadeck-inverse-surface-light);
-    --aquadeck-inverse-primary: var(--aquadeck-inverse-primary-light);
-    --aquadeck-shadow: var(--aquadeck-shadow-light);
-    --aquadeck-surface-tint: var(--aquadeck-surface-tint-light);
-    --aquadeck-outline-variant: var(--aquadeck-outline-variant-light);
-    --aquadeck-scrim: var(--aquadeck-scrim-light);
-    --aquadeck-surface: var(--aquadeck-surface-light);
-    --aquadeck-on-surface: var(--aquadeck-on-surface-light);
-    --aquadeck-surface-variant: var(--aquadeck-surface-variant-light);
-    --aquadeck-on-surface-variant: var(--aquadeck-on-surface-variant-light);
-    --aquadeck-surface-container-highest: var(--aquadeck-surface-container-highest-light);
-    --aquadeck-surface-container-high: var(--aquadeck-surface-container-high-light);
-    --aquadeck-surface-container: var(--aquadeck-surface-container-light);
-    --aquadeck-surface-container-low: var(--aquadeck-surface-container-low-light);
-    --aquadeck-surface-container-lowest: var(--aquadeck-surface-container-lowest-light);
-    --aquadeck-surface-dim: var(--aquadeck-surface-dim-light);
-    --aquadeck-surface-bright: var(--aquadeck-surface-bright-light);
+    /* Pull accent from the chosen palette */
+    --accent: var(--accent-light);
+    --on-accent: var(--on-accent-light);
+
+    /* Neutral surfaces — no color tint */
+    --bg: #ebebeb;
+    --bg-raised: #ffffff;
+    --bg-panel: #f2f2f2;
+    --bg-hover: #dedede;
+    --bg-active: #cccccc;
+
+    /* Text */
+    --text: #1a1a1a;
+    --text-secondary: #6b6b6b;
+    --text-disabled: #aaaaaa;
+
+    /* Borders */
+    --border: #c8c8c8;
+    --separator: #d8d8d8;
+
+    /* Error */
+    --error: #cc2222;
+    --on-error: #ffffff;
 }

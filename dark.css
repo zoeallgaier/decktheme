@@ -1,51 +1,25 @@
 :root {
-    --aquadeck-primary: var(--aquadeck-primary-dark);
-    --aquadeck-on-primary: var(--aquadeck-on-primary-dark);
-    --aquadeck-primary-container: var(--aquadeck-primary-container-dark);
-    --aquadeck-on-primary-container: var(--aquadeck-on-primary-container-dark);
-    --aquadeck-primary-fixed: var(--aquadeck-primary-fixed-dark);
-    --aquadeck-on-primary-fixed: var(--aquadeck-on-primary-fixed-dark);
-    --aquadeck-primary-fixed-dim: var(--aquadeck-primary-fixed-dim-dark);
-    --aquadeck-on-primary-fixed-variant: var(--aquadeck-on-primary-fixed-variant-dark);
-    --aquadeck-secondary: var(--aquadeck-secondary-dark);
-    --aquadeck-on-secondary: var(--aquadeck-on-secondary-dark);
-    --aquadeck-secondary-container: var(--aquadeck-secondary-container-dark);
-    --aquadeck-on-secondary-container: var(--aquadeck-on-secondary-container-dark);
-    --aquadeck-secondary-fixed: var(--aquadeck-secondary-fixed-dark);
-    --aquadeck-on-secondary-fixed: var(--aquadeck-on-secondary-fixed-dark);
-    --aquadeck-secondary-fixed-dim: var(--aquadeck-secondary-fixed-dim-dark);
-    --aquadeck-on-secondary-fixed-variant: var(--aquadeck-on-secondary-fixed-variant-dark);
-    --aquadeck-tertiary: var(--aquadeck-tertiary-dark);
-    --aquadeck-on-tertiary: var(--aquadeck-on-tertiary-dark);
-    --aquadeck-tertiary-container: var(--aquadeck-tertiary-container-dark);
-    --aquadeck-on-tertiary-container: var(--aquadeck-on-tertiary-container-dark);
-    --aquadeck-tertiary-fixed: var(--aquadeck-tertiary-fixed-dark);
-    --aquadeck-on-tertiary-fixed: var(--aquadeck-on-tertiary-fixed-dark);
-    --aquadeck-tertiary-fixed-dim: var(--aquadeck-tertiary-fixed-dim-dark);
-    --aquadeck-on-tertiary-fixed-variant: var(--aquadeck-on-tertiary-fixed-variant-dark);
-    --aquadeck-error: var(--aquadeck-error-dark);
-    --aquadeck-error-container: var(--aquadeck-error-container-dark);
-    --aquadeck-on-error: var(--aquadeck-on-error-dark);
-    --aquadeck-on-error-container: var(--aquadeck-on-error-container-dark);
-    --aquadeck-background: var(--aquadeck-background-dark);
-    --aquadeck-on-background: var(--aquadeck-on-background-dark);
-    --aquadeck-outline: var(--aquadeck-outline-dark);
-    --aquadeck-inverse-on-surface: var(--aquadeck-inverse-on-surface-dark);
-    --aquadeck-inverse-surface: var(--aquadeck-inverse-surface-dark);
-    --aquadeck-inverse-primary: var(--aquadeck-inverse-primary-dark);
-    --aquadeck-shadow: var(--aquadeck-shadow-dark);
-    --aquadeck-surface-tint: var(--aquadeck-surface-tint-dark);
-    --aquadeck-outline-variant: var(--aquadeck-outline-variant-dark);
-    --aquadeck-scrim: var(--aquadeck-scrim-dark);
-    --aquadeck-surface: var(--aquadeck-surface-dark);
-    --aquadeck-on-surface: var(--aquadeck-on-surface-dark);
-    --aquadeck-surface-variant: var(--aquadeck-surface-variant-dark);
-    --aquadeck-on-surface-variant: var(--aquadeck-on-surface-variant-dark);
-    --aquadeck-surface-container-highest: var(--aquadeck-surface-container-highest-dark);
-    --aquadeck-surface-container-high: var(--aquadeck-surface-container-high-dark);
-    --aquadeck-surface-container: var(--aquadeck-surface-container-dark);
-    --aquadeck-surface-container-low: var(--aquadeck-surface-container-low-dark);
-    --aquadeck-surface-container-lowest: var(--aquadeck-surface-container-lowest-dark);
-    --aquadeck-surface-dim: var(--aquadeck-surface-dim-dark);
-    --aquadeck-surface-bright: var(--aquadeck-surface-bright-dark);
+    /* Pull accent from the chosen palette */
+    --accent: var(--accent-dark);
+    --on-accent: var(--on-accent-dark);
+
+    /* Neutral surfaces — no color tint */
+    --bg: #161616;
+    --bg-raised: #1e1e1e;
+    --bg-panel: #141414;
+    --bg-hover: #2a2a2a;
+    --bg-active: #363636;
+
+    /* Text */
+    --text: #e8e8e8;
+    --text-secondary: #999999;
+    --text-disabled: #555555;
+
+    /* Borders */
+    --border: #2d2d2d;
+    --separator: #222222;
+
+    /* Error */
+    --error: #ff6b6b;
+    --on-error: #ffffff;
 }

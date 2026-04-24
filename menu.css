@@ -1,17 +1,18 @@
-/* Settings Menu */
+/* Settings menu / paged settings dialog */
+
 .gamepadpagedsettings_PagedSettingsDialog_PageListColumn_2EZ3o,
 .gamepadpage_GamepadPage_2FqpD.gamepadpage_DialogBackground_2msTK,
 .gamepadui_OpaqueBackground_b084m .gamepadui_Content_1FxmN {
-    background: color-mix(in srgb, var(--aquadeck-surface-container) 80%, transparent);
-    backdrop-filter: blur(20px) saturate(1.3);
-    -webkit-backdrop-filter: blur(20px) saturate(1.3);
+    background: color-mix(in srgb, var(--bg-raised) 88%, transparent);
+    backdrop-filter: blur(20px) saturate(1.2);
+    -webkit-backdrop-filter: blur(20px) saturate(1.2);
     border: none;
 }
 
-.gamepadpagedsettings_PagedSettingDialog_ContentColumn_3JPle{
-    background: color-mix(in srgb, var(--aquadeck-surface) 90%, transparent);
-    backdrop-filter: blur(20px) saturate(1.3);
-    -webkit-backdrop-filter: blur(20px) saturate(1.3);
+.gamepadpagedsettings_PagedSettingDialog_ContentColumn_3JPle {
+    background: color-mix(in srgb, var(--bg-panel) 90%, transparent);
+    backdrop-filter: blur(20px) saturate(1.2);
+    -webkit-backdrop-filter: blur(20px) saturate(1.2);
     border-top-left-radius: var(--radius-lg);
     border-bottom-left-radius: var(--radius-lg);
     margin-top: var(--basicui-header-height);
@@ -25,6 +26,7 @@
     display: none;
 }
 
+/* Settings list items */
 .gamepadpagedsettings_PagedSettingsDialog_PageListItem_1ix7r.gamepadpagedsettings_Active_22LLB {
     transform: none;
     padding: 2px 0;
@@ -34,19 +36,19 @@
 }
 
 .gamepadpagedsettings_PagedSettingsDialog_PageListItem_1ix7r.gamepadpagedsettings_Active_22LLB:focus {
-    background: var(--aquadeck-surface-container-highest);
+    background: var(--bg-hover);
 }
 
 .gamepadpagedsettings_PageListItem_Title_2PPLv,
 .gamepadpagedsettings_PagedSettingsDialog_Title_1Px9u {
-    color: var(--aquadeck-on-surface-variant);
+    color: var(--text-secondary);
 }
 
 .gamepadpagedsettings_PagedSettingsDialog_PageListItem_1ix7r.gamepadpagedsettings_Active_22LLB > .gamepadpagedsettings_PageListItem_Title_2PPLv {
     padding: 15px 10px;
     margin: 0 calc(2px + 1.4vw);
-    background: var(--aquadeck-secondary);
-    color: var(--aquadeck-on-secondary);
+    background: var(--accent);
+    color: var(--on-accent);
     border-radius: var(--radius-sm);
 }
 
@@ -57,13 +59,13 @@
 
 .gamepadpagedsettings_PageListItem_Icon_1F_5Q,
 .BasicUI .gamepaddialog_GamepadDialogContent_3joNk .DialogControlsSectionHeader {
-    color: var(--aquadeck-on-surface);
+    color: var(--text);
 }
 
 .customizationsettings_StartupMoviesSelectionDesc_gfecK,
 .BasicUI .gamepaddialog_GamepadDialogContent_3joNk .DialogSubHeader,
 .remoteplaysettings_TableHeader_1HL6K {
-    color: var(--aquadeck-on-surface-variant);
+    color: var(--text-secondary);
 }
 
 .gamepadpagedsettings_Separator_3vV7l {
@@ -83,11 +85,10 @@
     background: transparent;
 }
 
-
-/* Controller Layout Menu */
+/* Controller layout menu */
 
 .controllerconfigurator_ControllerConfiguratorMain_APY6j {
-    background: var(--aquadeck-surface);
+    background: var(--bg);
 }
 
 .controllerconfigurator_TopSection_20sN9,
@@ -96,102 +97,98 @@
     background: transparent;
 }
 
-.controllerconfigurator_CurrentConfigurationButton_3lO3w .controllerconfigurator_CommunityConfigCalloutPresent_1L7Yn,
-.controllerconfigurator_CurrentConfigurationButton_3lO3w .dropdownlabel_DropDownLabelUpperDescription_2_JN3,
-.gpfocus .controllerconfigurator_CommunityConfigCalloutContainer_10WYX .controllerconfigurator_CommunityConfigCalloutPresent_1L7Yn {
-    color: var(--aquadeck-on-primary);
-}
-
 .controllerconfiguratorchooseconfiguration_OuterColumn_1Udh1 h1 {
-    color: var(--aquadeck-on-surface);
+    color: var(--text);
 }
 
 .controllerconfiguratorchooseconfiguration_OuterColumn_1Udh1 p {
-    color: var(--aquadeck-on-surface-variant);
+    color: var(--text-secondary);
 }
 
 .controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN,
 .controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.controllerconfiguratorchooseconfiguration_Selected_Gp6XG {
-    background: var(--aquadeck-primary-container);
-    color: var(--aquadeck-on-primary-container);
+    background: var(--bg-hover);
+    color: var(--text);
 }
 
 .controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.gpfocus,
 .controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.controllerconfiguratorchooseconfiguration_Selected_Gp6XG.gpfocus {
-    background: var(--aquadeck-inverse-surface);
-    color: var(--aquadeck-inverse-on-surface);
+    background: var(--accent);
+    color: var(--on-accent);
 }
 
 .controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.controllerconfiguratorchooseconfiguration_Selected_Gp6XG {
-    border-left-color: var(--aquadeck-primary);
+    border-left-color: var(--accent);
 }
 
 .controllerconfiguratorchooseconfiguration_Author_1dzOH,
 .controllerconfiguratorchooseconfiguration_InfoSection_25G91,
 .controllerconfiguratorchooseconfiguration_Title_EI1IQ,
 .controllerconfiguratorchooseconfiguration_Description_3XAvq {
-    color: var(--aquadeck-on-primary-container);
-}
-
-.controllerconfigurator_CurrentConfigurationButton_3lO3w .dropdownlabel_DropDownLabelTitle_uDBZW {
-    color: var(--aquadeck-on-primary);
-}
-
-.controllerconfigurator_CurrentConfigurationButton_3lO3w.gpfocus .dropdownlabel_DropDownLabelTitle_uDBZW {
-    color: var(--aquadeck-inverse-on-surface);
+    color: var(--text);
 }
 
 .controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.gpfocus .controllerconfiguratorchooseconfiguration_Author_1dzOH,
 .controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.gpfocus .controllerconfiguratorchooseconfiguration_InfoSection_25G91,
 .controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.gpfocus .controllerconfiguratorchooseconfiguration_Title_EI1IQ,
 .controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.gpfocus .controllerconfiguratorchooseconfiguration_Description_3XAvq {
-    color: var(--aquadeck-inverse-on-surface);
+    color: var(--on-accent);
+}
+
+.controllerconfigurator_CurrentConfigurationButton_3lO3w .dropdownlabel_DropDownLabelTitle_uDBZW,
+.controllerconfigurator_CurrentConfigurationButton_3lO3w .controllerconfigurator_CommunityConfigCalloutPresent_1L7Yn,
+.controllerconfigurator_CurrentConfigurationButton_3lO3w .dropdownlabel_DropDownLabelUpperDescription_2_JN3,
+.gpfocus .controllerconfigurator_CommunityConfigCalloutContainer_10WYX .controllerconfigurator_CommunityConfigCalloutPresent_1L7Yn {
+    color: var(--on-accent);
+}
+
+.controllerconfigurator_CurrentConfigurationButton_3lO3w.gpfocus .dropdownlabel_DropDownLabelTitle_uDBZW {
+    color: var(--on-accent);
 }
 
 .controllerconfigurator_QuickSettingsHeader_3gVR5,
 .controllerconfigurator_TopSectionHeader_1a_D6,
 .controllerconfigurator_CommunityConfigsCallout_1xfC8 .controllerconfigurator_Description_38ea5 .controllerconfigurator_SubTitle_2-E4i {
-    color: var(--aquadeck-on-surface-variant);
+    color: var(--text-secondary);
 }
 
-/* Storage Menu */
+/* Storage menu */
 
-/* Storage Menu Top Drive Select */
 .BasicUI .contentmanagement_InstallFolder_12aBP.contentmanagement_IsSelected_3VQeL {
     background: transparent;
-    color: var(--aquadeck-on-surface);
-    border-bottom: 4px solid var(--aquadeck-primary);
+    color: var(--text);
+    border-bottom: 4px solid var(--accent);
 }
 
 .contentmanagement_DriveName_1rihl,
 .contentmanagement_DriveSize_5bG9I,
 .contentmanagement_InstallFolder_12aBP,
 .contentmanagement_IsSelected_3VQeL svg,
-.contentmanagement_IsSelected_3VQeL .contentmanagement_DriveName_1rihl, .contentmanagement_IsSelected_3VQeL .contentmanagement_DriveSize_5bG9I, .contentmanagement_IsSelected_3VQeL svg {
-    color: var(--aquadeck-on-surface);
+.contentmanagement_IsSelected_3VQeL .contentmanagement_DriveName_1rihl,
+.contentmanagement_IsSelected_3VQeL .contentmanagement_DriveSize_5bG9I,
+.contentmanagement_IsSelected_3VQeL svg {
+    color: var(--text);
 }
 
 .BasicUI .contentmanagement_InstallFolder_12aBP {
     border-radius: 0;
-    border-bottom: 2px solid var(--aquadeck-outline);
+    border-bottom: 2px solid var(--border);
 }
 
 .BasicUI .contentmanagement_InstallFolder_12aBP:focus {
-    background: var(--aquadeck-surface-container-highest);
+    background: var(--bg-hover);
 }
 
-.BasicUI .contentmanagement_InstallFolder_12aBP:focus .contentmanagement_DriveName_1rihl, 
-.BasicUI .contentmanagement_InstallFolder_12aBP:focus .contentmanagement_DriveSize_5bG9I, 
+.BasicUI .contentmanagement_InstallFolder_12aBP:focus .contentmanagement_DriveName_1rihl,
+.BasicUI .contentmanagement_InstallFolder_12aBP:focus .contentmanagement_DriveSize_5bG9I,
 .BasicUI .contentmanagement_InstallFolder_12aBP:focus svg {
-    color: var(--aquadeck-on-surface);
+    color: var(--text);
 }
 
-
-/* Storage Menu Other */
-
-.contentmanagement_DriveSettingsButton_1WKUO:hover, .contentmanagement_DriveSettingsButton_1WKUO:focus {
-    background: var(--aquadeck-inverse-surface);
-    color: var(--aquadeck-inverse-on-surface);
+.contentmanagement_DriveSettingsButton_1WKUO:hover,
+.contentmanagement_DriveSettingsButton_1WKUO:focus {
+    background: var(--bg-active);
+    color: var(--text);
 }
 
 .contentmanagement_DriveSettingsButton_1WKUO {
@@ -202,66 +199,66 @@
     height: 10px;
     border-radius: var(--radius-pill);
     width: 25px;
-    background: var(--aquadeck-tertiary);
-    color: var(--aquadeck-on-tertiary);
+    background: var(--accent);
+    color: var(--on-accent);
 }
 
 .contentmanagement_DriveUsageText_1DFCG,
 .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppHeader_3_uaa,
 .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyLeft_d9dlN .contentmanagement_AppName_YxhO6,
 .contentmanagement_LibraryContent_ybEU2 .contentmanagement_DriveUsage_1LvKJ .contentmanagement_DriveName_1rihl {
-    color: var(--aquadeck-on-surface);
+    color: var(--text);
 }
 
 .BasicUI .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyLeft_d9dlN .contentmanagement_AppInfo__g4ce .contentmanagement_AppUsageValue_2B8dj,
 .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyLeft_d9dlN .contentmanagement_AppInfo__g4ce svg,
 .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppHeader_3_uaa .contentmanagement_AppHeaderValue_3X3BB {
-    color: var(--aquadeck-on-surface-variant);
+    color: var(--text-secondary);
 }
 
 .contentmanagement_DriveUsageNumber_181OY,
-.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyRight_3vHX3 .contentmanagement_AppSize_mohK9
-{
-    color: var(--aquadeck-primary);
+.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyRight_3vHX3 .contentmanagement_AppSize_mohK9 {
+    color: var(--accent);
 }
 
+/* Sort dropdown */
 .sortingdropdowncontrolbutton_BasicHomeDropDownControlButton_17SQW.sortingdropdowncontrolbutton_SortingDropDownControlButton_2ddeJ {
-    background: var(--aquadeck-tertiary);
-    color: var(--aquadeck-on-tertiary);
+    background: var(--bg-hover);
+    color: var(--text);
     padding: 5px 10px;
     border-radius: var(--radius-pill);
 }
 
 .sortingdropdowncontrolbutton_BasicHomeDropDownControlButton_17SQW:focus {
-    background: var(--aquadeck-inverse-surface);
-    color: var(--aquadeck-inverse-on-surface);
+    background: var(--accent);
+    color: var(--on-accent);
 }
 
 .BasicUI .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBody_2RCSU:focus {
-    background: var(--aquadeck-surface-container-highest);
+    background: var(--bg-hover);
 }
 
 /* Add a friend */
 
 .friendinvites_AddFriendSection_3BjIx .friendinvites_Title_1ZEdD,
-.friendinvites_FriendCodeSection_39nte .friendinvites_Caption__XK9j  {
-    color: var(--aquadeck-on-surface);
+.friendinvites_FriendCodeSection_39nte .friendinvites_Caption__XK9j {
+    color: var(--text);
 }
 
 .friendinvites_AddFriendSection_3BjIx .friendinvites_Description_KI_gF {
-    color: var(--aquadeck-on-surface-variant);
+    color: var(--text-secondary);
 }
 
 .friendinvites_InvitesList_3i8Fo {
-    background: var(--aquadeck-surface);
+    background: var(--bg-raised);
 }
 
 .friendinvites_FriendCodeSection_39nte .friendinvites_FriendCode_27408 {
-    background: var(--aquadeck-primary);
+    background: var(--accent);
 }
 
 .friendinvites_FriendCodeSection_39nte .friendinvites_Code_1-bTQ {
-    color: var(--aquadeck-on-primary);
+    color: var(--on-accent);
 }
 
 .friendinvites_TopSection_2uvvl {
@@ -279,17 +276,16 @@
     gap: 4px;
 }
 
-/* Library Tab Settings */ 
-
+/* Library tab settings */
 .BasicUI .librarysettings_LibrarySettings_2nsOY {
     background: transparent;
 }
 
-/* Library Tab */
-.gamepadtabbedpage_GamepadTabbedPage_3IBLc.gamepadtabbedpage_IsUnderHeader_31Zle .gamepadtabbedpage_TabHeaderRowWrapper_2Jobs::before, 
+/* Library tab header shadow */
+.gamepadtabbedpage_GamepadTabbedPage_3IBLc.gamepadtabbedpage_IsUnderHeader_31Zle .gamepadtabbedpage_TabHeaderRowWrapper_2Jobs::before,
 .gamepadtabbedpage_TabHeaderRowWrapper_2Jobs.gamepadtabbedpage_ScrolledDown_1jNhb::before {
     box-shadow: none;
-    background: var(--aquadeck-surface-container);
+    background: var(--bg-raised);
 }
 
 .gamepadtabbedpage_FixCenterAlignScroll_1CJeU {

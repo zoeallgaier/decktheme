@@ -1,11 +1,12 @@
+/* Quick Access Menu (QAM) */
 
-/* QAM Background */
+/* Background panels */
 .quickaccessmenu_Tabs_3Ag1w,
 .quickaccessmenu_Title_34nl5,
 .quickaccessmenu_PanelOuterNav_2BB6u {
-    background: color-mix(in srgb, var(--aquadeck-surface-container) 80%, transparent);
-    backdrop-filter: blur(24px) saturate(1.3);
-    -webkit-backdrop-filter: blur(24px) saturate(1.3);
+    background: color-mix(in srgb, var(--bg-raised) 88%, transparent);
+    backdrop-filter: blur(24px) saturate(1.2);
+    -webkit-backdrop-filter: blur(24px) saturate(1.2);
 }
 
 .quickaccessmenu_Tab_1S76C {
@@ -18,56 +19,56 @@
 
 .quickaccessmenu_Title_34nl5 {
     box-shadow: none;
-    color: var(--aquadeck-on-surface-variant);
+    color: var(--text-secondary);
 }
 
 .quickaccessmenu_TabGroupPanel_1QO7b.scrollpanel_ScrollPanel_1CXdi {
-    background: color-mix(in srgb, var(--aquadeck-surface) 88%, transparent);
-    backdrop-filter: blur(24px) saturate(1.3);
-    -webkit-backdrop-filter: blur(24px) saturate(1.3);
+    background: color-mix(in srgb, var(--bg-panel) 90%, transparent);
+    backdrop-filter: blur(24px) saturate(1.2);
+    -webkit-backdrop-filter: blur(24px) saturate(1.2);
     margin-top: 8px;
     padding-top: 8px;
     border-top-left-radius: var(--radius-lg);
     border-bottom-left-radius: var(--radius-lg);
 }
 
+/* Tab icons */
 .quickaccessmenu_Tab_1S76C {
     margin: 4px;
     height: 40px;
     min-height: 40px;
     width: 40px;
     border-radius: var(--radius-pill);
-    color: var(--aquadeck-on-surface-variant);
-}
-
-.quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu.gpfocus {
-    background: var(--aquadeck-inverse-surface) !important;
-    color: var(--aquadeck-inverse-on-surface) !important;
-    transform: scale(1.0);
-    clip-path: none;
+    color: var(--text-secondary);
 }
 
 .quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu {
-    background: var(--aquadeck-primary-container) !important;
-    color: var(--aquadeck-on-primary-container) !important;
+    background: var(--bg-hover) !important;
+    color: var(--text) !important;
+}
+
+.quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu.gpfocus {
+    background: var(--accent) !important;
+    color: var(--on-accent) !important;
+    transform: scale(1.0);
+    clip-path: none;
 }
 
 .quickaccessmenu_FooterBoxShadow_ISUYE {
     display: none;
 }
 
+/* Decky plugin panel */
 .quickaccessmenu_TabGroupPanel_1QO7b.tab_undefined {
     padding-top: 0;
     margin-top: 0;
-    background: var(--aquadeck-surface-container);
+    background: var(--bg-raised);
 }
 
-/* Decky hotfix */
 .quickaccessmenu_TabGroupPanel_1QO7b.tab_undefined > div:last-child:not(.Panel),
 .quickaccessmenu_TabGroupPanel_1QO7b.tab_undefined > div.Panel:last-child > div:last-child {
-    background: var(--aquadeck-surface);
+    background: var(--bg-panel);
 }
-
 
 .quickaccessmenu_TabGroupPanel_1QO7b.tab_undefined .quickaccessmenu_Title_34nl5 {
     padding-bottom: 10px;
@@ -84,19 +85,23 @@
     background: transparent;
 }
 
-/* QAM Text */
+/* Remove border lines around QAM in-game */
+.quickaccessmenu_Menu_1gJzx::before,
+.quickaccessmenu_Menu_1gJzx::after {
+    display: none;
+}
 
+/* QAM text */
 .quickaccesscontrols_BatteryDetailsLabels_3M39z .quickaccesscontrols_BatteryProjectedValue_1mTo6,
 .quickaccesscontrols_BatteryProjectedLabel_4hS40,
 .quickaccesscontrols_BatteryPercentageLabel_3Rxxi,
 .gamepaddialog_FieldDescription_2OJfk,
 .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin .gamepaddialog_FieldDescription_2OJfk {
-    color: var(--aquadeck-on-surface-variant);
+    color: var(--text-secondary);
 }
 
-
 .quickaccesscontrols_BatteryIcon_39aNh > div:first-child {
-    color: var(--aquadeck-on-surface-variant) !important;
+    color: var(--text-secondary) !important;
 }
 
 .quickaccesscontrols_Text_1hJkB,
@@ -105,12 +110,11 @@
 .perf_PerfProfileInfo_1UqP6 .perf_SubHeading_2C4wP .perf_Text_3gY4m,
 .perf_PerfProfileInfo_1UqP6 .perf_Heading_23Yxa .perf_Text_3gY4m,
 .gamepadslider_Icon_21uKi {
-    color: var(--aquadeck-on-surface);
+    color: var(--text);
 }
 
-.gamepaddialog_Field_S-_La.gamepaddialog_Disabled_1pmyx .gamepaddialog_FieldLabel_3b0U- 
-{
-    color: var(--aquadeck-outline);
+.gamepaddialog_Field_S-_La.gamepaddialog_Disabled_1pmyx .gamepaddialog_FieldLabel_3b0U- {
+    color: var(--text-disabled);
 }
 
 .quickaccesscontrols_PanelSectionRow_2VQ88 {
@@ -121,48 +125,36 @@
     display: none;
 }
 
+/* Field focus highlight */
 .gamepaddialog_Field_S-_La.gpfocus,
 .gamepaddialog_Field_S-_La.gpfocuswithin,
 .soundtrackcontrols_QuickAccess_3_y7M.gpfocuswithin {
-    background: var(--aquadeck-surface-container-highest) !important;
-    /* background: var(--aquadeck-inverse-surface) !important; */
+    background: var(--bg-hover) !important;
 }
 
 .gamepaddialog_Field_S-_La.gpfocus .gamepaddialog_FieldLabel_3b0U-,
 .gamepaddialog_Field_S-_La.gpfocuswithin .gamepaddialog_FieldLabel_3b0U-,
 .gamepaddialog_Field_S-_La.gpfocus .gamepaddialog_FieldIcon_1sC68,
 .gamepaddialog_Field_S-_La.gpfocuswithin .gamepaddialog_FieldIcon_1sC68,
-.gamepaddialog_Field_S-_La .gamepaddialog_FieldIcon_1sC68
-{
-    color: var(--aquadeck-on-surface) !important;
-    /* color: var(--aquadeck-inverse-on-surface) !important; */
+.gamepaddialog_Field_S-_La .gamepaddialog_FieldIcon_1sC68 {
+    color: var(--text) !important;
 }
 
-
-/* When ingame, this removes the top and bottom borders in QAM separating the header, QAM and footer */
-.quickaccessmenu_Menu_1gJzx::before, .quickaccessmenu_Menu_1gJzx::after {
-    display: none;
-}
-
-
-/* Components */
-
-/* Component Toggle */
-
+/* Toggle component */
 .gamepaddialog_ToggleSwitch_3__OD {
     height: 14px;
     width: 14px;
     margin: 4px !important;
     transition-property: all;
     transition-duration: 100ms;
-    background: var(--aquadeck-on-primary-fixed);
+    background: var(--text-secondary);
 }
 
 .gamepaddialog_On_3ld7T > .gamepaddialog_ToggleSwitch_3__OD {
     height: 18px;
     width: 18px;
     margin: 2px !important;
-    background: var(--aquadeck-on-primary);
+    background: var(--on-accent);
 }
 
 .gamepaddialog_Toggle_24G4g.gpfocus:not(.gamepaddialog_Disabled_1pmyx) .gamepaddialog_ToggleSwitch_3__OD {
@@ -175,92 +167,89 @@
 
 .gamepaddialog_ToggleRail_2JtC3,
 .gamepaddialog_Field_S-_La.gpfocuswithin .gamepaddialog_ToggleRail_2JtC3 {
-    background: var(--aquadeck-primary-fixed);
+    background: var(--bg-active);
 }
 
 .gamepaddialog_On_3ld7T > .gamepaddialog_ToggleRail_2JtC3,
 .gamepaddialog_Field_S-_La.gpfocuswithin .gamepaddialog_On_3ld7T > .gamepaddialog_ToggleRail_2JtC3 {
-    background: var(--aquadeck-primary);
+    background: var(--accent);
 }
 
 .gamepaddialog_Toggle_24G4g.gpfocus:after {
-    background-color: var(--aquadeck-inverse-primary);
+    background-color: var(--accent);
 }
 
-/* Component Button */
-
+/* Button component */
 button.gamepaddialog_Button_1kn70.DialogButton,
 button.gamepaddialog_Button_1kn70.DialogButton:enabled,
 button.gamepaddialog_Button_1kn70.DialogButton.Primary,
 button.gamepaddialog_Button_1kn70.DialogButton.Primary:enabled {
-    background: var(--aquadeck-primary) !important;
-    color: var(--aquadeck-on-primary) !important;
+    background: var(--accent) !important;
+    color: var(--on-accent) !important;
     border-radius: var(--radius-pill);
 }
 
 button.gamepaddialog_Button_1kn70.DialogButton.gpfocus:not(.gamepaddropdown_DropDownControlButton_28bny),
 button.gamepaddialog_Button_1kn70.DialogButton.gpfocus:enabled:not(.gamepaddropdown_DropDownControlButton_28bny) {
-    background: var(--aquadeck-inverse-surface) !important;
-    color: var(--aquadeck-inverse-on-surface) !important;
+    background: var(--bg-active) !important;
+    color: var(--text) !important;
 }
 
+/* Account panel fat buttons */
 button.accountpanel_FatButton_TEWms .accountpanel_Label_3wadw,
 button.accountpanel_FatButton_TEWms .accountpanel_Details_3Wb9y,
 button.accountpanel_FatButton_TEWms svg {
-    color: var(--aquadeck-on-primary);
-    fill: var(--aquadeck-on-primary);
+    color: var(--on-accent);
+    fill: var(--on-accent);
 }
 
 button.accountpanel_FatButton_TEWms.accountpanel_FatButtonFocus_2rd6k .accountpanel_Label_3wadw,
 button.accountpanel_FatButton_TEWms.accountpanel_FatButtonFocus_2rd6k svg,
 button.accountpanel_FatButton_TEWms.accountpanel_FatButtonFocus_2rd6k .accountpanel_Details_3Wb9y,
 button.accountpanel_FatButton_TEWms.accountpanel_FatButtonFocus_2rd6k .accountpanel_Highlight_35ztZ {
-    color: var(--aquadeck-inverse-on-surface);
+    color: var(--text);
 }
 
 .accountpanel_Details_3Wb9y > .accountpanel_Highlight_35ztZ {
-    color: var(--aquadeck-inverse-primary);
+    color: var(--accent);
 }
 
 .gamepaddialog_Field_S-_La .accountpanel_Highlight_35ztZ {
-    color: var(--aquadeck-primary);
+    color: var(--accent);
 }
 
 .gamepaddialog_Field_S-_La .accountpanel_FatButton_TEWms .accountpanel_Highlight_35ztZ {
-    color: var(--aquadeck-on-primary);
+    color: var(--on-accent);
 }
 
-
-/* Component Dropdown */
+/* Dropdown component */
 button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny,
 button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny:enabled {
     background: transparent !important;
-    border: 2px solid var(--aquadeck-primary);
-    color: var(--aquadeck-on-surface) !important;
+    border: 2px solid var(--border);
+    color: var(--text) !important;
     border-radius: var(--radius-sm);
 }
 
 .gamepaddropdown_DropDownControlButton_28bny .dropdownlabel_DropDownLabelUpperDescription_2_JN3,
 .gamepaddropdown_DropDownControlButton_28bny .dropdownlabel_DropDownLabelDescription_1JPcb,
 .gamepadcontextmenu_contextMenuItem_1sdvo .dropdownlabel_DropDownLabelUpperDescription_2_JN3,
-.gamepadcontextmenu_contextMenuItem_1sdvo .dropdownlabel_DropDownLabelDescription_1JPcb 
-{
-    color: var(--aquadeck-on-surface-variant) !important;
+.gamepadcontextmenu_contextMenuItem_1sdvo .dropdownlabel_DropDownLabelDescription_1JPcb {
+    color: var(--text-secondary) !important;
 }
 
 .gamepaddropdown_DropDownControlButton_28bny .dropdownlabel_DropDownLabelTitle_uDBZW,
 .gamepadcontextmenu_contextMenuItem_1sdvo .dropdownlabel_DropDownLabelTitle_uDBZW {
-    color: var(--aquadeck-on-surface) !important;
+    color: var(--text) !important;
 }
 
 button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny.gpfocus,
 button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny.gpfocus:enabled {
-    background: var(--aquadeck-surface-container-lowest) !important;
-    border-color: var(--aquadeck-inverse-surface);
+    background: var(--bg-hover) !important;
+    border-color: var(--accent);
 }
 
-/* Component Slider */
-
+/* Slider component */
 .gamepadslider_SliderNotchTick_Fv1Ht {
     height: 3px;
     width: 3px;
@@ -269,30 +258,27 @@ button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny.gp
     margin-bottom: 10px;
     z-index: 100;
     border-radius: var(--radius-pill);
-    background: var(--aquadeck-outline) !important;
+    background: var(--border) !important;
 }
 
 .gamepadslider_SliderNotchTick_Fv1Ht.gamepadslider_TickActive_1gnUV {
-    background: var(--aquadeck-outline-variant) !important;
+    background: var(--text-secondary) !important;
 }
 
 .gamepadslider_SliderNotchLabel_u_sH1,
 .gamepadslider_DefaultValueTickContainer_23F6A {
-    color: var(--aquadeck-on-surface);
+    color: var(--text);
 }
 
 .gamepadslider_SliderTrack_Mq25N {
-    background: var(--aquadeck-primary-fixed);
+    background: var(--bg-hover);
+    border-radius: var(--radius-pill);
 }
 
 .gamepadslider_SliderTrack_Mq25N::before {
-    background: var(--aquadeck-primary);
+    background: var(--accent);
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
-}
-
-.gamepadslider_SliderTrack_Mq25N  {
-    border-radius: var(--radius-pill);
 }
 
 .gamepadslider_SliderHandleContainer_1pQZi {
@@ -300,42 +286,40 @@ button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny.gp
 }
 
 .gamepadslider_SliderHandle_2yVKj {
-    background: var(--aquadeck-primary);
+    background: var(--accent);
 }
 
 .gamepadslider_SliderNotchContainer_2N-a5 {
     padding: 0 1px;
 }
 
-.gamepaddialog_Field_S-_La.gpfocus .gamepadslider_SliderTrack_Mq25N ,
-.gamepaddialog_Field_S-_La.gpfocuswithin .gamepadslider_SliderTrack_Mq25N  {
-    border: 2px solid var(--aquadeck-outline);
+.gamepaddialog_Field_S-_La.gpfocus .gamepadslider_SliderTrack_Mq25N,
+.gamepaddialog_Field_S-_La.gpfocuswithin .gamepadslider_SliderTrack_Mq25N {
+    border: 2px solid var(--border);
 }
 
-/* Textinput Component */
-
+/* Text input component */
 .DialogInput_Wrapper .gamepaddialog_BasicTextInput_3GCBi::placeholder {
-    color: var(--aquadeck-on-surface-variant);
+    color: var(--text-secondary);
 }
 
 .DialogInput_Wrapper .gamepaddialog_BasicTextInput_3GCBi {
-    border: 2px solid var(--aquadeck-primary);
+    border: 2px solid var(--border);
     background: transparent;
-    color: var(--aquadeck-on-surface);
+    color: var(--text);
     border-radius: var(--radius-sm);
 }
 
 .DialogInput_Wrapper .gamepaddialog_BasicTextInput_3GCBi.gpfocus {
-    background: var(--aquadeck-surface-container-lowest);
-    border-color: var(--aquadeck-inverse-surface);
+    background: var(--bg-raised);
+    border-color: var(--accent);
 }
 
 .appproperties_Title_3zuIC {
-    color: var(--aquadeck-on-surface);
+    color: var(--text);
 }
 
-/* Radio Group */
-
+/* Radio group component */
 .radio_Group_2qYC3 {
     background: transparent;
     padding: 0;
@@ -345,16 +329,16 @@ button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny.gp
 .radio_Group_2qYC3 > .radio_Button_3lwcR {
     margin: 0;
     border-radius: 0;
-    border-right: 2px solid var(--aquadeck-outline);
-    border-top: 2px solid var(--aquadeck-outline);
-    border-bottom: 2px solid var(--aquadeck-outline);
-    color: var(--aquadeck-on-surface);
+    border-right: 2px solid var(--border);
+    border-top: 2px solid var(--border);
+    border-bottom: 2px solid var(--border);
+    color: var(--text);
     background: transparent;
 }
 
 .radio_Group_2qYC3 > .radio_Button_3lwcR.radio_Active_3ZBFo {
-    color: var(--aquadeck-on-primary);
-    background: var(--aquadeck-primary);
+    color: var(--on-accent);
+    background: var(--accent);
 }
 
 .radio_Group_2qYC3 > .radio_Button_3lwcR:last-child {
@@ -363,38 +347,38 @@ button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny.gp
 }
 
 .radio_Group_2qYC3 > .radio_Button_3lwcR:first-child {
-    border-left: 2px solid var(--aquadeck-outline);
+    border-left: 2px solid var(--border);
     border-top-left-radius: var(--radius-xl);
     border-bottom-left-radius: var(--radius-xl);
 }
 
-/* QAM Notification */
-
+/* QAM notification items */
 .standardtemplates_StandardTemplateContainer_1adpx.gpfocus {
-    background: var(--aquadeck-surface-container-highest);
+    background: var(--bg-hover);
 }
 
-.quickaccesscontrols_QuickAccessNotifications_2HCcx>div:not(:focus)+div:not(:focus):before {
+.quickaccesscontrols_QuickAccessNotifications_2HCcx > div:not(:focus) + div:not(:focus):before {
     display: none;
 }
 
 .standardtemplates_StandardTemplate_3e_DB .standardtemplates_Header_39ZAW > div {
-    color: var(--aquadeck-on-surface);
+    color: var(--text);
 }
 
 .standardtemplates_StandardTemplate_3e_DB .standardtemplates_StandardNotificationDescription_1Ldq1,
 .notificationcontent_AchievementTextSection_mJ3Nu .notificationcontent_Name_1juF1,
 .notificationcontent_MessageBody_289EA .notificationcontent_Sender_19K6y {
-    color: var(--aquadeck-primary);
+    color: var(--accent);
 }
 
 .standardtemplates_StandardTemplate_3e_DB .standardtemplates_StandardNotificationSubText_2XcN2,
 .BasicUI .notificationcontent_AchievementTextSection_mJ3Nu .notificationcontent_Desc_2zm3G,
-.notificationcontent_MessageBody_289EA .notificationcontent_Dash_1ETCz, .notificationcontent_MessageBody_289EA .notificationcontent_Body_2RpDR {
-    color: var(--aquadeck-on-surface-variant);
+.notificationcontent_MessageBody_289EA .notificationcontent_Dash_1ETCz,
+.notificationcontent_MessageBody_289EA .notificationcontent_Body_2RpDR {
+    color: var(--text-secondary);
 }
 
 .standardtemplates_StandardTemplate_3e_DB .standardtemplates_StandardNotificationSubText_2XcN2 .notificationcontent_FriendInGameAppColor_3uw_G,
 .notificationcontent_FriendName_3BGvp {
-    color: var(--aquadeck-tertiary);
+    color: var(--text);
 }

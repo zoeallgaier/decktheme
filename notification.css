@@ -1,17 +1,22 @@
+/* Toast notification popups */
+
 .shorttemplates_ShortTemplate_29NLb {
-    background: var(--aquadeck-secondary-container);
+    background: color-mix(in srgb, var(--bg-raised) 90%, transparent);
+    backdrop-filter: blur(20px) saturate(1.2);
+    -webkit-backdrop-filter: blur(20px) saturate(1.2);
     margin-right: 10px;
+    border-radius: var(--radius-lg);
 }
 
 .shorttemplates_ShortTemplate_29NLb .shorttemplates_Title_BkpSl,
 .shorttemplates_ShortTemplate_29NLb .shorttemplates_Icon_2TlJy {
-    color: var(--aquadeck-primary);
+    color: var(--accent);
 }
 
 .shorttemplates_ShortTemplate_29NLb .shorttemplates_Body_i5dFV {
-    color: var(--aquadeck-secondary);
+    color: var(--text-secondary);
 }
 
 .notificationcontent_FriendInGameAppColor_3uw_G {
-    color: var(--aquadeck-tertiary);
+    color: var(--text);
 }
