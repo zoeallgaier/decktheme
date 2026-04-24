@@ -55,11 +55,11 @@ svg text,
 /* ── Size scale for visual hierarchy ── */
 .DialogHeader,
 [class*="DialogHeader"] {
-    font-size: 28px !important;
+    font-size: 36px !important;
 }
 
 [class*="DialogSubHeader"] {
-    font-size: 20px !important;
+    font-size: 26px !important;
 }
 
 [class*="_SectionHeader_"],
@@ -67,16 +67,16 @@ svg text,
 [class*="AppGridSectionHeader"],
 [class*="RecentGamesHeader"],
 [class*="basicappdetailssectionstyler_CollectionsHeader"] {
-    font-size: 22px !important;
+    font-size: 28px !important;
 }
 
 [class*="AppGridSectionLabel"],
 [class*="appdetailssectionheader_LabelText"],
 [class*="appfilterpane_SearchBucketLabel"] {
-    font-size: 18px !important;
+    font-size: 24px !important;
 }
 
 [class*="CarouselGameLabel"],
 [class*="CarouselGameLabelWrapper"] {
-    font-size: 26px !important;
+    font-size: 34px !important;
 }

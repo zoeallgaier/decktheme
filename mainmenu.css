@@ -16,8 +16,6 @@
 .mainmenu_Item_2w9Tp.mainmenu_Active_10bq5 .mainmenu_ItemIcon_3xZ3Z,
 .mainmenu_Item_2w9Tp.mainmenu_Active_10bq5 .mainmenu_ItemLabel_3x-ZK {
     color: var(--text) !important;
-    font-family: 'Instrument Serif', Georgia, serif !important;
-    font-weight: normal !important;
 }
 
 .mainmenu_Item_2w9Tp.gpfocus,
@@ -34,9 +32,9 @@
 }
 
 .mainmenu_Menu_23IDi {
-    background: color-mix(in srgb, var(--bg-raised) 88%, transparent);
-    backdrop-filter: blur(24px) saturate(1.2);
-    -webkit-backdrop-filter: blur(24px) saturate(1.2);
+    background: color-mix(in srgb, var(--bg-raised) 90%, transparent);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 }
 
 /* Hide decorative elements */
@@ -53,17 +51,17 @@
 
 /* In-game overlay menu */
 .mainmenuapprunning_MainMenuAppRunning_1wiEs {
-    background: color-mix(in srgb, var(--bg-raised) 88%, transparent);
-    backdrop-filter: blur(24px) saturate(1.2);
-    -webkit-backdrop-filter: blur(24px) saturate(1.2);
+    background: color-mix(in srgb, var(--bg-raised) 90%, transparent);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 }
 
 .mainmenuapprunning_NavigationColumn_27FEg {
     justify-content: flex-start;
     border-image-source: none;
     background: color-mix(in srgb, var(--bg-panel) 90%, transparent);
-    backdrop-filter: blur(24px) saturate(1.2);
-    -webkit-backdrop-filter: blur(24px) saturate(1.2);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     border-radius: var(--radius-xl);
     border: none;
     margin: 0 10px;
@@ -78,8 +76,6 @@
 .mainmenuapprunning_NavigationMenuItem_1G0K4.mainmenuapprunning_Active_1jG8i:not(.gpfocus) {
     color: var(--text);
     mix-blend-mode: normal !important;
-    font-family: 'Instrument Serif', Georgia, serif !important;
-    font-weight: normal !important;
 }
 
 .mainmenuapprunning_NavigationMenuItem_1G0K4.mainmenuapprunning_Active_1jG8i {
@@ -106,8 +102,8 @@
 /* App column (game running) */
 .mainmenuapprunning_AppColumn_3FAI9 {
     background: color-mix(in srgb, var(--bg-panel) 90%, transparent);
-    backdrop-filter: blur(24px) saturate(1.2);
-    -webkit-backdrop-filter: blur(24px) saturate(1.2);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     padding: 10px;
     border-top-left-radius: var(--radius-xl);
     border-bottom-left-radius: var(--radius-xl);

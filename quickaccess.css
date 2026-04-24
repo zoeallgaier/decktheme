@@ -5,8 +5,8 @@
 .quickaccessmenu_Title_34nl5,
 .quickaccessmenu_PanelOuterNav_2BB6u {
     background: color-mix(in srgb, var(--bg-raised) 88%, transparent);
-    backdrop-filter: blur(24px) saturate(1.2);
-    -webkit-backdrop-filter: blur(24px) saturate(1.2);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 }
 
 .quickaccessmenu_Tab_1S76C {
@@ -24,8 +24,8 @@
 
 .quickaccessmenu_TabGroupPanel_1QO7b.scrollpanel_ScrollPanel_1CXdi {
     background: color-mix(in srgb, var(--bg-panel) 90%, transparent);
-    backdrop-filter: blur(24px) saturate(1.2);
-    -webkit-backdrop-filter: blur(24px) saturate(1.2);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     margin-top: 8px;
     padding-top: 8px;
     border-top-left-radius: var(--radius-lg);

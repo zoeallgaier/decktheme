@@ -4,15 +4,15 @@
 .gamepadpage_GamepadPage_2FqpD.gamepadpage_DialogBackground_2msTK,
 .gamepadui_OpaqueBackground_b084m .gamepadui_Content_1FxmN {
     background: color-mix(in srgb, var(--bg-raised) 88%, transparent);
-    backdrop-filter: blur(20px) saturate(1.2);
-    -webkit-backdrop-filter: blur(20px) saturate(1.2);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     border: none;
 }
 
 .gamepadpagedsettings_PagedSettingDialog_ContentColumn_3JPle {
     background: color-mix(in srgb, var(--bg-panel) 90%, transparent);
-    backdrop-filter: blur(20px) saturate(1.2);
-    -webkit-backdrop-filter: blur(20px) saturate(1.2);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     border-top-left-radius: var(--radius-lg);
     border-bottom-left-radius: var(--radius-lg);
     margin-top: var(--basicui-header-height);
@@ -42,8 +42,6 @@
 .gamepadpagedsettings_PageListItem_Title_2PPLv,
 .gamepadpagedsettings_PagedSettingsDialog_Title_1Px9u {
     color: var(--text);
-    font-family: 'Instrument Serif', Georgia, serif !important;
-    font-weight: normal !important;
 }
 
 .gamepadpagedsettings_PagedSettingsDialog_PageListItem_1ix7r.gamepadpagedsettings_Active_22LLB > .gamepadpagedsettings_PageListItem_Title_2PPLv {

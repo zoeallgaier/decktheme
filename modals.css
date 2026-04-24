@@ -4,8 +4,8 @@
     padding: 8px 20px;
     border-radius: var(--radius-xl);
     background: color-mix(in srgb, var(--bg-raised) 90%, transparent);
-    backdrop-filter: blur(24px) saturate(1.2);
-    -webkit-backdrop-filter: blur(24px) saturate(1.2);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25), 0 2px 6px rgba(0, 0, 0, 0.12);
     margin-top: 5px;
     filter: none;
@@ -96,9 +96,9 @@
 /* Context menu header (game name, etc.) */
 .gamepadcontextmenu_BasicContextMenuHeader_2Jp8B {
     background: color-mix(in srgb, var(--bg-raised) 90%, transparent);
-    backdrop-filter: blur(24px) saturate(1.2);
-    -webkit-backdrop-filter: blur(24px) saturate(1.2);
-    color: var(--text-secondary);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    color: var(--text);
     margin: 0 auto;
     border-top-left-radius: var(--radius-xl);
     border-top-right-radius: var(--radius-xl);
@@ -154,8 +154,8 @@
 .gamepaddialog_ModalPosition_30VHl > .gamepaddialog_GamepadDialogContent_3joNk,
 .steamdeckcompatfilter_CompatFilterDialog_21qvB {
     background: color-mix(in srgb, var(--bg-raised) 92%, transparent);
-    backdrop-filter: blur(24px) saturate(1.2);
-    -webkit-backdrop-filter: blur(24px) saturate(1.2);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25), 0 2px 6px rgba(0, 0, 0, 0.12);
     border: none;
     border-radius: var(--radius-xl);
