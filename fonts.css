@@ -12,6 +12,7 @@
 
     font-family: var(--font-body);
     font-weight: 300;
+    color: var(--text);
 }
 
 /* ── Instrument Serif: all header/title/name elements ── */
@@ -79,4 +80,33 @@ svg text,
 [class*="CarouselGameLabel"],
 [class*="CarouselGameLabelWrapper"] {
     font-size: 34px !important;
+}
+
+/* ── Broad text color fallback ── */
+/* Catches any page/panel not explicitly styled: Steam side menus,
+   plugin info pages, settings sub-pages, Decky panels, etc. */
+.Panel,
+.BasicUI,
+.BasicUI *,
+.gamepadui_Content_1FxmN,
+.gamepadui_Content_1FxmN *,
+.gamepaddialog_GamepadDialogContent_3joNk,
+.gamepaddialog_GamepadDialogContent_3joNk *,
+.gamepadui_OpaqueBackground_b084m,
+.gamepadui_OpaqueBackground_b084m *,
+[class*="pluginmain_"],
+[class*="pluginmain_"] *,
+[class*="deckyloaderapp_"],
+[class*="deckyloaderapp_"] * {
+    color: var(--text);
+}
+
+/* Re-allow secondary/muted text for elements that should stay softer */
+[class*="pluginmain_"] [class*="secondary"],
+[class*="pluginmain_"] [class*="Secondary"],
+[class*="pluginmain_"] [class*="description"],
+[class*="pluginmain_"] [class*="Description"],
+.gamepaddialog_FieldDescription_2OJfk,
+.gamepaddialog_LabelFieldValue_5Mylh {
+    color: var(--text-secondary);
 }
