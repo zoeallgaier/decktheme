@@ -16,8 +16,23 @@
 
 .DialogHeader,
 [class*="DialogHeader"],
+[class*="DialogSubHeader"],
 [class*="_GameName_"],
-[class*="_Title_"] {
+[class*="_Title_"],
+[class*="_AppName_"],
+[class*="_SectionHeader_"],
+[class*="SectionTitle"],
+[class*="AppGridSectionHeader"],
+[class*="AppGridSectionLabel"],
+[class*="appdetailssectionheader_LabelText"],
+[class*="basicappdetailssectionstyler_CollectionsHeader"],
+[class*="appfilterpane_SearchBucketLabel"],
+[class*="contentmanagement_AppName"],
+[class*="contentmanagement_DriveName"],
+[class*="appproperties_Title"],
+[class*="_PageTitle_"],
+[class*="_Heading_"],
+.gamepadtabbedpage_Tab_3eEbS {
     font-family: var(--font-display) !important;
     font-weight: normal;
 }
