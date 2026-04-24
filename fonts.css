@@ -32,9 +32,14 @@
 [class*="appproperties_Title"],
 [class*="_PageTitle_"],
 [class*="_Heading_"],
-[class*="CarouselGameLabel"],
 [class*="RecentGamesHeader"],
 .gamepadtabbedpage_Tab_3eEbS {
     font-family: var(--font-display) !important;
     font-weight: normal;
+}
+
+/* SVG game titles — must target <text> directly */
+[class*="CarouselGameLabel"] text,
+[class*="SVGTitle"] text {
+    font-family: var(--font-display) !important;
 }
