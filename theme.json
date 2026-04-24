@@ -1,5 +1,8 @@
 {
   "name": "AquaDeck",
+  "author": "zoeallgaier",
+  "target": "System-Wide",
+  "description": "iMac G3/G4-inspired theme with translucent candy-colored palettes. Includes Bondi Blue, Blueberry, Grape, Tangerine, Lime, Strawberry, Graphite, Ruby, Sage, Snow, and Indigo color options with dark and light mode support.",
   "version": "v1.5",
   "manifest_version": 8,
   "tabs": {
