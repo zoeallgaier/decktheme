@@ -12,12 +12,12 @@
 .mainmenu_Item_2w9Tp .mainmenu_ItemIcon_3xZ3Z,
 .mainmenu_Item_2w9Tp.mainmenu_Active_10bq5 .mainmenu_ItemIcon_3xZ3Z, 
 .mainmenu_Item_2w9Tp.mainmenu_Active_10bq5 .mainmenu_ItemLabel_3x-ZK {
-    color: var(--md-sys-color-on-surface) !important;
+    color: var(--aquadeck-on-surface) !important;
 }
 
 .mainmenu_Item_2w9Tp.gpfocus,
 .mainmenu_Item_2w9Tp:focus:hover {
-    background: var(--md-sys-color-secondary);
+    background: var(--aquadeck-secondary);
     animation: none;
 }
 
@@ -26,11 +26,11 @@
 .mainmenu_Item_2w9Tp:focus:hover .marquee_Content_2ADpT, 
 .mainmenu_Item_2w9Tp:focus:hover .mainmenu_ItemIcon_3xZ3Z
 {
-    color: var(--md-sys-color-on-secondary) !important;
+    color: var(--aquadeck-on-secondary) !important;
 }
 
 .mainmenu_Menu_23IDi {
-    background: var(--md-sys-color-surface-container);
+    background: var(--aquadeck-surface-container);
 }
 
 .mainmenu_RunnningAppSeparator_33RkH {
@@ -47,14 +47,14 @@
 .mainmenuapprunning_NavigationColumn_27FEg {
     justify-content: flex-start;
     border-image-source: none;
-    background: var(--md-sys-color-surface);
+    background: var(--aquadeck-surface);
     border-radius: 20px;
     border: none;
     margin: 0 10px;
 }
 
 .mainmenuapprunning_MainMenuAppRunning_1wiEs {
-    background: var(--md-sys-color-surface-container);
+    background: var(--aquadeck-surface-container);
 }
 
 /* Weird Glowing Elements */
@@ -66,8 +66,8 @@
 .mainmenuapprunning_NavigationMenuItem_1G0K4.gpfocus {
     animation: none;
     transform: none;
-    background: var(--md-sys-color-secondary);
-    color: var(--md-sys-color-on-secondary);
+    background: var(--aquadeck-secondary);
+    color: var(--aquadeck-on-secondary);
     margin: 0 10px;
     padding: 8px;
     border-radius: 5px;
@@ -82,7 +82,7 @@
 
 .mainmenuapprunning_NavigationMenuItem_1G0K4,
 .mainmenuapprunning_NavigationMenuItem_1G0K4.mainmenuapprunning_Active_1jG8i:not(.gpfocus) {
-    color: var(--md-sys-color-on-surface);
+    color: var(--aquadeck-on-surface);
     mix-blend-mode: normal !important;
 }
 
@@ -91,11 +91,11 @@
 }
 
 .controllerconfiguratorsummary_TitleLabel_3ViNI {
-    color: var(--md-sys-color-primary);
+    color: var(--aquadeck-primary);
 }
 
 .mainmenuapprunning_AppColumn_3FAI9 {
-    background: var(--md-sys-color-surface);
+    background: var(--aquadeck-surface);
     padding: 10px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -106,35 +106,35 @@ img.mainmenuapprunning_CurrentGameLogo_3V3VK {
 }
 
 .mainmenuapprunning_AppColumn_3FAI9.mainmenuapprunning_FocusedColumn_lz9Db {
-    background: var(--md-sys-color-surface);
+    background: var(--aquadeck-surface);
 }
 
 .controllerconfiguratorsummary_BottomControlsSections_2H5S6 .controllerconfiguratorsummary_ConfigButton_1T2Rs {
-    border: 2px solid var(--md-sys-color-outline);
+    border: 2px solid var(--aquadeck-outline);
     background: transparent;
-    color: var(--md-sys-color-primary);
+    color: var(--aquadeck-primary);
     border-radius: 25px;
 }
 
 .controllerconfiguratorsummary_BottomControlsSections_2H5S6 .controllerconfiguratorsummary_ConfigButton_1T2Rs.gpfocus {
-    background: var(--md-sys-color-primary);
-    color: var(--md-sys-color-on-primary);
+    background: var(--aquadeck-primary);
+    color: var(--aquadeck-on-primary);
 }
 
 .controllerconfiguratorsummary_ControlsListSection_nnOTT .marquee_Content_2ADpT,
 .controllerconfiguratorsummary_ControlContainer_1KA4m .marquee_Content_2ADpT,
 .controllerconfiguratorsummary_ControllerInputDisplay_27Q1T .controllerconfiguratorsummary_StandardControl_pywHI,
 .controllerconfiguratorsummary_ControlsListSection_nnOTT .controllerconfiguratorsummary_StandardControl_pywHI {
-    color: var(--md-sys-color-on-surface);
+    color: var(--aquadeck-on-surface);
 }
 
 .controllerconfiguratorsummary_ControllerConfiguratorSummary_3TvBV .controllerconfiguratorsummary_DirectAccessButton_QAVEl:focus {
-    background: var(--md-sys-color-surface-container-highest);
+    background: var(--aquadeck-surface-container-highest);
 }
 
 .controllerconfiguratorsummary_ControlsListSection_nnOTT .controllerconfiguratorsummary_Title_12Taa,
 .controllerconfiguratorsummary_ControllerInputDisplay_27Q1T,
 .controllerconfiguratorsummary_DirectAccessButton_QAVEl,
 .controllerconfiguratorsummary_ControlContainer_1KA4m .controllerconfiguratorsummary_ActivatorText_2BHzj {
-    color: var(--md-sys-color-on-surface-variant);
+    color: var(--aquadeck-on-surface-variant);
 }

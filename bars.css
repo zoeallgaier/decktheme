@@ -2,7 +2,7 @@
 .header_Header_1E_SL.header_OverrideHeaderBackground_MS2nB.gpfocuswithin::before,
 #Footer,
 #QuickAccess-Menu {
-    background: var(--md-sys-color-surface-container);
+    background: var(--aquadeck-surface-container);
 }
 
 #Footer {
@@ -19,26 +19,26 @@
 .searchbar_SearchAndTitleContainer_17M8g.gpfocuswithin .searchbar_SearchIconLeft_2Ya83,
 .searchbar_SearchAndTitleContainer_17M8g.searchbar_ForceExpanded_1bmuJ .searchbar_SearchIconLeft_2Ya83,
 .searchbar_SearchAndTitleContainer_17M8g.searchbar_ShowingTitle_P5_Rq {
-    color: var(--md-sys-color-on-surface);
+    color: var(--aquadeck-on-surface);
 }
 
 .header_HeaderDownloadContainer_2ssr3 .header_HeaderAppPortraitContainer_1PbL3 .header_HeaderDownloadProgressBarBackground_vo3Tt {
-    background: var(--md-sys-color-surface-container-lowest);
+    background: var(--aquadeck-surface-container-lowest);
 }
 
 .header_HeaderDownloadContainer_2ssr3 .header_HeaderAppPortraitContainer_1PbL3 .header_HeaderDownloadProgressBarBackground_vo3Tt .header_HeaderDownloadProgressBar_AK_Ax {
-    background: var(--md-sys-color-primary);
+    background: var(--aquadeck-primary);
 }
 
 #header .header_HeaderItem_2HnVd.gpfocus, #header .header_HeaderItem_2HnVd.gpfocuswithin {
-    color: var(--md-sys-color-inverse-on-surface);
-    background: var(--md-sys-color-inverse-surface);
+    color: var(--aquadeck-inverse-on-surface);
+    background: var(--aquadeck-inverse-surface);
 }
 
 .searchbar_SearchContainer_161Tj.gpfocuswithin, .searchbar_SearchContainer_161Tj.searchbar_ForceExpanded_1bmuJ {
-    border-bottom: 2px solid var(--md-sys-color-outline);
+    border-bottom: 2px solid var(--aquadeck-outline);
     height: -webkit-fill-available;
-    color: var(--md-sys-color-on-surface);
+    color: var(--aquadeck-on-surface);
 }
 
 .searchbar_SearchContainer_161Tj.searchbar_ForceExpanded_1bmuJ:not(.gpfocuswithin) .searchbar_SearchFieldBackground_3F4YR.searchbar_WhiteBackground_1l8js {
@@ -46,20 +46,20 @@
 }
 
 .searchbar_SearchFieldBackground_3F4YR.searchbar_WhiteBackground_1l8js {
-    background: var(--md-sys-color-surface-container-highest);
+    background: var(--aquadeck-surface-container-highest);
 }
 
 .searchbar_SearchBox_2a1-s::placeholder {
-    color: var(--md-sys-color-on-surface-variant) !important;
+    color: var(--aquadeck-on-surface-variant) !important;
 }
 
 .searchbar_SearchBox_2a1-s.gpfocus, .searchbar_SearchContainer_161Tj.searchbar_ForceExpanded_1bmuJ .searchbar_SearchBox_2a1-s,
 .searchbar_SearchContainer_161Tj .searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js {
-    caret-color: var(--md-sys-color-primary);
-    color: var(--md-sys-color-primary);
+    caret-color: var(--aquadeck-primary);
+    color: var(--aquadeck-primary);
 }
 
 .mainbrowser_URLBar_1CwIx .mainbrowser_URL_2aM-J {
-    background: var(--md-sys-color-surface-container);
-    color: var(--md-sys-color-primary);
+    background: var(--aquadeck-surface-container);
+    color: var(--aquadeck-primary);
 }

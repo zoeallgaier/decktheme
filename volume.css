@@ -13,7 +13,7 @@
     -webkit-mask-position: center;
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: contain;
-    background: var(--md-sys-color-on-primary);
+    background: var(--aquadeck-on-primary);
     height: 24px;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .audio_VolumePopin_2iUUM {
-    background: var(--md-sys-color-surface-container-highest);
+    background: var(--aquadeck-surface-container-highest);
     border-radius: 25px;
     padding-right: 10px;
 }
@@ -44,7 +44,7 @@
 .audio_VolumePopin_2iUUM .gamepadslider_SliderControl_3o137 {
     height: fit-content;
     margin: 10px 0;
-    background: var(--md-sys-color-primary-fixed);
+    background: var(--aquadeck-primary-fixed);
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     width: 100%;

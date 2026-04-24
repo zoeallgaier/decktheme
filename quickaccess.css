@@ -3,7 +3,7 @@
 .quickaccessmenu_Tabs_3Ag1w,
 .quickaccessmenu_Title_34nl5,
 .quickaccessmenu_PanelOuterNav_2BB6u {
-    background: var(--md-sys-color-surface-container);
+    background: var(--aquadeck-surface-container);
 }
 
 .quickaccessmenu_Tab_1S76C {
@@ -16,11 +16,11 @@
 
 .quickaccessmenu_Title_34nl5 {
     box-shadow: none;
-    color: var(--md-sys-color-on-surface-variant);
+    color: var(--aquadeck-on-surface-variant);
 }
 
 .quickaccessmenu_TabGroupPanel_1QO7b.scrollpanel_ScrollPanel_1CXdi {
-    background: var(--md-sys-color-surface);
+    background: var(--aquadeck-surface);
     margin-top: 8px;
     padding-top: 8px;
     border-top-left-radius: 10px;
@@ -33,19 +33,19 @@
     min-height: 40px;
     width: 40px;
     border-radius: 50px;
-    color: var(--md-sys-color-on-surface-variant);
+    color: var(--aquadeck-on-surface-variant);
 }
 
 .quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu.gpfocus {
-    background: var(--md-sys-color-inverse-surface) !important;
-    color: var(--md-sys-color-inverse-on-surface) !important;
+    background: var(--aquadeck-inverse-surface) !important;
+    color: var(--aquadeck-inverse-on-surface) !important;
     transform: scale(1.0);
     clip-path: none;
 }
 
 .quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu {
-    background: var(--md-sys-color-primary-container) !important;
-    color: var(--md-sys-color-on-primary-container) !important;
+    background: var(--aquadeck-primary-container) !important;
+    color: var(--aquadeck-on-primary-container) !important;
 }
 
 .quickaccessmenu_FooterBoxShadow_ISUYE {
@@ -55,13 +55,13 @@
 .quickaccessmenu_TabGroupPanel_1QO7b.tab_undefined {
     padding-top: 0;
     margin-top: 0;
-    background: var(--md-sys-color-surface-container);
+    background: var(--aquadeck-surface-container);
 }
 
 /* Decky hotfix */
 .quickaccessmenu_TabGroupPanel_1QO7b.tab_undefined > div:last-child:not(.Panel),
 .quickaccessmenu_TabGroupPanel_1QO7b.tab_undefined > div.Panel:last-child > div:last-child {
-    background: var(--md-sys-color-surface);
+    background: var(--aquadeck-surface);
 }
 
 
@@ -87,12 +87,12 @@
 .quickaccesscontrols_BatteryPercentageLabel_3Rxxi,
 .gamepaddialog_FieldDescription_2OJfk,
 .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin .gamepaddialog_FieldDescription_2OJfk {
-    color: var(--md-sys-color-on-surface-variant);
+    color: var(--aquadeck-on-surface-variant);
 }
 
 
 .quickaccesscontrols_BatteryIcon_39aNh > div:first-child {
-    color: var(--md-sys-color-on-surface-variant) !important;
+    color: var(--aquadeck-on-surface-variant) !important;
 }
 
 .quickaccesscontrols_Text_1hJkB,
@@ -101,12 +101,12 @@
 .perf_PerfProfileInfo_1UqP6 .perf_SubHeading_2C4wP .perf_Text_3gY4m,
 .perf_PerfProfileInfo_1UqP6 .perf_Heading_23Yxa .perf_Text_3gY4m,
 .gamepadslider_Icon_21uKi {
-    color: var(--md-sys-color-on-surface);
+    color: var(--aquadeck-on-surface);
 }
 
 .gamepaddialog_Field_S-_La.gamepaddialog_Disabled_1pmyx .gamepaddialog_FieldLabel_3b0U- 
 {
-    color: var(--md-sys-color-outline);
+    color: var(--aquadeck-outline);
 }
 
 .quickaccesscontrols_PanelSectionRow_2VQ88 {
@@ -120,8 +120,8 @@
 .gamepaddialog_Field_S-_La.gpfocus,
 .gamepaddialog_Field_S-_La.gpfocuswithin,
 .soundtrackcontrols_QuickAccess_3_y7M.gpfocuswithin {
-    background: var(--md-sys-color-surface-container-highest) !important;
-    /* background: var(--md-sys-color-inverse-surface) !important; */
+    background: var(--aquadeck-surface-container-highest) !important;
+    /* background: var(--aquadeck-inverse-surface) !important; */
 }
 
 .gamepaddialog_Field_S-_La.gpfocus .gamepaddialog_FieldLabel_3b0U-,
@@ -130,8 +130,8 @@
 .gamepaddialog_Field_S-_La.gpfocuswithin .gamepaddialog_FieldIcon_1sC68,
 .gamepaddialog_Field_S-_La .gamepaddialog_FieldIcon_1sC68
 {
-    color: var(--md-sys-color-on-surface) !important;
-    /* color: var(--md-sys-color-inverse-on-surface) !important; */
+    color: var(--aquadeck-on-surface) !important;
+    /* color: var(--aquadeck-inverse-on-surface) !important; */
 }
 
 
@@ -151,14 +151,14 @@
     margin: 4px !important;
     transition-property: all;
     transition-duration: 100ms;
-    background: var(--md-sys-color-on-primary-fixed);
+    background: var(--aquadeck-on-primary-fixed);
 }
 
 .gamepaddialog_On_3ld7T > .gamepaddialog_ToggleSwitch_3__OD {
     height: 18px;
     width: 18px;
     margin: 2px !important;
-    background: var(--md-sys-color-on-primary);
+    background: var(--aquadeck-on-primary);
 }
 
 .gamepaddialog_Toggle_24G4g.gpfocus:not(.gamepaddialog_Disabled_1pmyx) .gamepaddialog_ToggleSwitch_3__OD {
@@ -171,16 +171,16 @@
 
 .gamepaddialog_ToggleRail_2JtC3,
 .gamepaddialog_Field_S-_La.gpfocuswithin .gamepaddialog_ToggleRail_2JtC3 {
-    background: var(--md-sys-color-primary-fixed);
+    background: var(--aquadeck-primary-fixed);
 }
 
 .gamepaddialog_On_3ld7T > .gamepaddialog_ToggleRail_2JtC3,
 .gamepaddialog_Field_S-_La.gpfocuswithin .gamepaddialog_On_3ld7T > .gamepaddialog_ToggleRail_2JtC3 {
-    background: var(--md-sys-color-primary);
+    background: var(--aquadeck-primary);
 }
 
 .gamepaddialog_Toggle_24G4g.gpfocus:after {
-    background-color: var(--md-sys-color-inverse-primary);
+    background-color: var(--aquadeck-inverse-primary);
 }
 
 /* Component Button */
@@ -189,41 +189,41 @@ button.gamepaddialog_Button_1kn70.DialogButton,
 button.gamepaddialog_Button_1kn70.DialogButton:enabled,
 button.gamepaddialog_Button_1kn70.DialogButton.Primary,
 button.gamepaddialog_Button_1kn70.DialogButton.Primary:enabled {
-    background: var(--md-sys-color-primary) !important;
-    color: var(--md-sys-color-on-primary) !important;
+    background: var(--aquadeck-primary) !important;
+    color: var(--aquadeck-on-primary) !important;
     border-radius: 50px;
 }
 
 button.gamepaddialog_Button_1kn70.DialogButton.gpfocus:not(.gamepaddropdown_DropDownControlButton_28bny),
 button.gamepaddialog_Button_1kn70.DialogButton.gpfocus:enabled:not(.gamepaddropdown_DropDownControlButton_28bny) {
-    background: var(--md-sys-color-inverse-surface) !important;
-    color: var(--md-sys-color-inverse-on-surface) !important;
+    background: var(--aquadeck-inverse-surface) !important;
+    color: var(--aquadeck-inverse-on-surface) !important;
 }
 
 button.accountpanel_FatButton_TEWms .accountpanel_Label_3wadw,
 button.accountpanel_FatButton_TEWms .accountpanel_Details_3Wb9y,
 button.accountpanel_FatButton_TEWms svg {
-    color: var(--md-sys-color-on-primary);
-    fill: var(--md-sys-color-on-primary);
+    color: var(--aquadeck-on-primary);
+    fill: var(--aquadeck-on-primary);
 }
 
 button.accountpanel_FatButton_TEWms.accountpanel_FatButtonFocus_2rd6k .accountpanel_Label_3wadw,
 button.accountpanel_FatButton_TEWms.accountpanel_FatButtonFocus_2rd6k svg,
 button.accountpanel_FatButton_TEWms.accountpanel_FatButtonFocus_2rd6k .accountpanel_Details_3Wb9y,
 button.accountpanel_FatButton_TEWms.accountpanel_FatButtonFocus_2rd6k .accountpanel_Highlight_35ztZ {
-    color: var(--md-sys-color-inverse-on-surface);
+    color: var(--aquadeck-inverse-on-surface);
 }
 
 .accountpanel_Details_3Wb9y > .accountpanel_Highlight_35ztZ {
-    color: var(--md-sys-color-inverse-primary);
+    color: var(--aquadeck-inverse-primary);
 }
 
 .gamepaddialog_Field_S-_La .accountpanel_Highlight_35ztZ {
-    color: var(--md-sys-color-primary);
+    color: var(--aquadeck-primary);
 }
 
 .gamepaddialog_Field_S-_La .accountpanel_FatButton_TEWms .accountpanel_Highlight_35ztZ {
-    color: var(--md-sys-color-on-primary);
+    color: var(--aquadeck-on-primary);
 }
 
 
@@ -231,8 +231,8 @@ button.accountpanel_FatButton_TEWms.accountpanel_FatButtonFocus_2rd6k .accountpa
 button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny,
 button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny:enabled {
     background: transparent !important;
-    border: 2px solid var(--md-sys-color-primary);
-    color: var(--md-sys-color-on-surface) !important;
+    border: 2px solid var(--aquadeck-primary);
+    color: var(--aquadeck-on-surface) !important;
     border-radius: 5px;
 }
 
@@ -241,18 +241,18 @@ button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny:en
 .gamepadcontextmenu_contextMenuItem_1sdvo .dropdownlabel_DropDownLabelUpperDescription_2_JN3,
 .gamepadcontextmenu_contextMenuItem_1sdvo .dropdownlabel_DropDownLabelDescription_1JPcb 
 {
-    color: var(--md-sys-color-on-surface-variant) !important;
+    color: var(--aquadeck-on-surface-variant) !important;
 }
 
 .gamepaddropdown_DropDownControlButton_28bny .dropdownlabel_DropDownLabelTitle_uDBZW,
 .gamepadcontextmenu_contextMenuItem_1sdvo .dropdownlabel_DropDownLabelTitle_uDBZW {
-    color: var(--md-sys-color-on-surface) !important;
+    color: var(--aquadeck-on-surface) !important;
 }
 
 button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny.gpfocus,
 button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny.gpfocus:enabled {
-    background: var(--md-sys-color-surface-container-lowest) !important;
-    border-color: var(--md-sys-color-inverse-surface);
+    background: var(--aquadeck-surface-container-lowest) !important;
+    border-color: var(--aquadeck-inverse-surface);
 }
 
 /* Component Slider */
@@ -265,24 +265,24 @@ button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny.gp
     margin-bottom: 10px;
     z-index: 100;
     border-radius: 25px;
-    background: var(--md-sys-color-outline) !important;
+    background: var(--aquadeck-outline) !important;
 }
 
 .gamepadslider_SliderNotchTick_Fv1Ht.gamepadslider_TickActive_1gnUV {
-    background: var(--md-sys-color-outline-variant) !important;
+    background: var(--aquadeck-outline-variant) !important;
 }
 
 .gamepadslider_SliderNotchLabel_u_sH1,
 .gamepadslider_DefaultValueTickContainer_23F6A {
-    color: var(--md-sys-color-on-surface);
+    color: var(--aquadeck-on-surface);
 }
 
 .gamepadslider_SliderTrack_Mq25N {
-    background: var(--md-sys-color-primary-fixed);
+    background: var(--aquadeck-primary-fixed);
 }
 
 .gamepadslider_SliderTrack_Mq25N::before {
-    background: var(--md-sys-color-primary);
+    background: var(--aquadeck-primary);
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
@@ -296,7 +296,7 @@ button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny.gp
 }
 
 .gamepadslider_SliderHandle_2yVKj {
-    background: var(--md-sys-color-primary);
+    background: var(--aquadeck-primary);
 }
 
 .gamepadslider_SliderNotchContainer_2N-a5 {
@@ -305,29 +305,29 @@ button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny.gp
 
 .gamepaddialog_Field_S-_La.gpfocus .gamepadslider_SliderTrack_Mq25N ,
 .gamepaddialog_Field_S-_La.gpfocuswithin .gamepadslider_SliderTrack_Mq25N  {
-    border: 2px solid var(--md-sys-color-outline);
+    border: 2px solid var(--aquadeck-outline);
 }
 
 /* Textinput Component */
 
 .DialogInput_Wrapper .gamepaddialog_BasicTextInput_3GCBi::placeholder {
-    color: var(--md-sys-color-on-surface-variant);
+    color: var(--aquadeck-on-surface-variant);
 }
 
 .DialogInput_Wrapper .gamepaddialog_BasicTextInput_3GCBi {
-    border: 2px solid var(--md-sys-color-primary);
+    border: 2px solid var(--aquadeck-primary);
     background: transparent;
-    color: var(--md-sys-color-on-surface);
+    color: var(--aquadeck-on-surface);
     border-radius: 5px;
 }
 
 .DialogInput_Wrapper .gamepaddialog_BasicTextInput_3GCBi.gpfocus {
-    background: var(--md-sys-color-surface-container-lowest);
-    border-color: var(--md-sys-color-inverse-surface);
+    background: var(--aquadeck-surface-container-lowest);
+    border-color: var(--aquadeck-inverse-surface);
 }
 
 .appproperties_Title_3zuIC {
-    color: var(--md-sys-color-on-surface);
+    color: var(--aquadeck-on-surface);
 }
 
 /* Radio Group */
@@ -341,16 +341,16 @@ button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny.gp
 .radio_Group_2qYC3 > .radio_Button_3lwcR {
     margin: 0;
     border-radius: 0;
-    border-right: 2px solid var(--md-sys-color-outline);
-    border-top: 2px solid var(--md-sys-color-outline);
-    border-bottom: 2px solid var(--md-sys-color-outline);
-    color: var(--md-sys-color-on-surface);
+    border-right: 2px solid var(--aquadeck-outline);
+    border-top: 2px solid var(--aquadeck-outline);
+    border-bottom: 2px solid var(--aquadeck-outline);
+    color: var(--aquadeck-on-surface);
     background: transparent;
 }
 
 .radio_Group_2qYC3 > .radio_Button_3lwcR.radio_Active_3ZBFo {
-    color: var(--md-sys-color-on-primary);
-    background: var(--md-sys-color-primary);
+    color: var(--aquadeck-on-primary);
+    background: var(--aquadeck-primary);
 }
 
 .radio_Group_2qYC3 > .radio_Button_3lwcR:last-child {
@@ -359,7 +359,7 @@ button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny.gp
 }
 
 .radio_Group_2qYC3 > .radio_Button_3lwcR:first-child {
-    border-left: 2px solid var(--md-sys-color-outline);
+    border-left: 2px solid var(--aquadeck-outline);
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
@@ -367,7 +367,7 @@ button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny.gp
 /* QAM Notification */
 
 .standardtemplates_StandardTemplateContainer_1adpx.gpfocus {
-    background: var(--md-sys-color-surface-container-highest);
+    background: var(--aquadeck-surface-container-highest);
 }
 
 .quickaccesscontrols_QuickAccessNotifications_2HCcx>div:not(:focus)+div:not(:focus):before {
@@ -375,22 +375,22 @@ button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny.gp
 }
 
 .standardtemplates_StandardTemplate_3e_DB .standardtemplates_Header_39ZAW > div {
-    color: var(--md-sys-color-on-surface);
+    color: var(--aquadeck-on-surface);
 }
 
 .standardtemplates_StandardTemplate_3e_DB .standardtemplates_StandardNotificationDescription_1Ldq1,
 .notificationcontent_AchievementTextSection_mJ3Nu .notificationcontent_Name_1juF1,
 .notificationcontent_MessageBody_289EA .notificationcontent_Sender_19K6y {
-    color: var(--md-sys-color-primary);
+    color: var(--aquadeck-primary);
 }
 
 .standardtemplates_StandardTemplate_3e_DB .standardtemplates_StandardNotificationSubText_2XcN2,
 .BasicUI .notificationcontent_AchievementTextSection_mJ3Nu .notificationcontent_Desc_2zm3G,
 .notificationcontent_MessageBody_289EA .notificationcontent_Dash_1ETCz, .notificationcontent_MessageBody_289EA .notificationcontent_Body_2RpDR {
-    color: var(--md-sys-color-on-surface-variant);
+    color: var(--aquadeck-on-surface-variant);
 }
 
 .standardtemplates_StandardTemplate_3e_DB .standardtemplates_StandardNotificationSubText_2XcN2 .notificationcontent_FriendInGameAppColor_3uw_G,
 .notificationcontent_FriendName_3BGvp {
-    color: var(--md-sys-color-tertiary);
+    color: var(--aquadeck-tertiary);
 }
