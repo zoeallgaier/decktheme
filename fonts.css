@@ -32,6 +32,8 @@
 [class*="appproperties_Title"],
 [class*="_PageTitle_"],
 [class*="_Heading_"],
+[class*="CarouselGameLabel"],
+[class*="RecentGamesHeader"],
 .gamepadtabbedpage_Tab_3eEbS {
     font-family: var(--font-display) !important;
     font-weight: normal;
