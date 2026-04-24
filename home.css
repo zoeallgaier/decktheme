@@ -96,6 +96,7 @@
 /* Recently Used On This Device */
 .recentlycompleted_RecentlyCompletedItem_3OC7i {
     background: var(--aquadeck-surface-container-highest);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
     height: fit-content !important;
 }
@@ -196,6 +197,7 @@
 
 .gamepadhomewhatsnew_EventPreviewContainer_1ltOY {
     background: var(--aquadeck-surface-container-highest);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.14), 0 1px 4px rgba(0, 0, 0, 0.08);
     border-radius: 20px;
     height: 93%;
 }

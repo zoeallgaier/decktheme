@@ -1,4 +1,4 @@
-{
+ {
   "name": "AquaDeck",
   "author": "zoeallgaier",
   "target": "System-Wide",
@@ -114,11 +114,6 @@
         },
         "Sage": {
           "palettes/sage.css": [
-            "all"
-          ]
-        },
-        "Snow": {
-          "palettes/snow.css": [
             "all"
           ]
         },
