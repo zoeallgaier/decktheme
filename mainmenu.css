@@ -12,9 +12,12 @@
 
 .mainmenu_Item_2w9Tp .marquee_Content_2ADpT,
 .mainmenu_Item_2w9Tp .mainmenu_ItemIcon_3xZ3Z,
+.mainmenu_Item_2w9Tp .mainmenu_ItemLabel_3x-ZK,
 .mainmenu_Item_2w9Tp.mainmenu_Active_10bq5 .mainmenu_ItemIcon_3xZ3Z,
 .mainmenu_Item_2w9Tp.mainmenu_Active_10bq5 .mainmenu_ItemLabel_3x-ZK {
     color: var(--text) !important;
+    font-family: 'Instrument Serif', Georgia, serif !important;
+    font-weight: normal !important;
 }
 
 .mainmenu_Item_2w9Tp.gpfocus,
@@ -75,6 +78,8 @@
 .mainmenuapprunning_NavigationMenuItem_1G0K4.mainmenuapprunning_Active_1jG8i:not(.gpfocus) {
     color: var(--text);
     mix-blend-mode: normal !important;
+    font-family: 'Instrument Serif', Georgia, serif !important;
+    font-weight: normal !important;
 }
 
 .mainmenuapprunning_NavigationMenuItem_1G0K4.mainmenuapprunning_Active_1jG8i {
