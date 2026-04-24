@@ -33,14 +33,14 @@
 /* Focused menu item */
 .gamepadcontextmenu_contextMenuItem_1sdvo.gpfocus,
 .gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_SubMenu_1_tPN.gamepadcontextmenu_active_2Pk-x {
-    background: var(--accent);
-    color: var(--on-accent);
+    background: color-mix(in srgb, var(--accent) 10%, transparent);
+    color: var(--text);
 }
 
 .gamepadcontextmenu_contextMenuItem_1sdvo.gpfocus .dropdownlabel_DropDownLabelTitle_uDBZW,
 .gamepadcontextmenu_contextMenuItem_1sdvo.gpfocus .dropdownlabel_DropDownLabelUpperDescription_2_JN3,
 .gamepadcontextmenu_contextMenuItem_1sdvo.gpfocus .dropdownlabel_DropDownLabelDescription_1JPcb {
-    color: var(--on-accent) !important;
+    color: var(--text) !important;
 }
 
 /* Primary action items (Play, Download, etc.) */
@@ -63,7 +63,7 @@
     border-radius: var(--radius-sm);
 }
 
-/* Primary action items — focused (keep accent, add inset ring for press feedback) */
+/* Primary action items — focused (subtle tint over accent base) */
 .gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_Focused_X813r.gamepadcontextmenu_Emphasis_1viOG,
 .gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_Focused_X813r.Download,
 .gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_Focused_X813r.Update,
@@ -78,9 +78,8 @@
 .gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_Focused_X813r.Play,
 .gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_Focused_X813r.Resume,
 .gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_Focused_X813r.BorrowApp {
-    background: var(--accent);
-    color: var(--on-accent);
-    box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
+    background: color-mix(in srgb, var(--accent) 10%, transparent);
+    color: var(--text);
 }
 
 /* Destructive action — focused */
@@ -203,8 +202,8 @@
 }
 
 .steamdeckcompatfilter_CompatFilterDialogRow_O7cW3.gpfocus {
-    background: var(--accent);
-    color: var(--on-accent);
+    background: color-mix(in srgb, var(--accent) 10%, transparent);
+    color: var(--text);
 }
 
 .steamdeckcompatfilter_CompatFilterDescription_1Fjvh {
@@ -212,7 +211,7 @@
 }
 
 .steamdeckcompatfilter_CompatFilterDialogRow_O7cW3.gpfocus .steamdeckcompatfilter_CompatFilterDescription_1Fjvh {
-    color: var(--on-accent);
+    color: var(--text-secondary);
 }
 
 .steamdeckcompatfilter_RadioButton_10D3Y,

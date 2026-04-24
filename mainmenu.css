@@ -20,7 +20,7 @@
 
 .mainmenu_Item_2w9Tp.gpfocus,
 .mainmenu_Item_2w9Tp:focus:hover {
-    background: var(--accent);
+    background: color-mix(in srgb, var(--accent) 10%, transparent);
     animation: none;
 }
 
@@ -28,7 +28,7 @@
 .mainmenu_Item_2w9Tp.gpfocus .mainmenu_ItemIcon_3xZ3Z,
 .mainmenu_Item_2w9Tp:focus:hover .marquee_Content_2ADpT,
 .mainmenu_Item_2w9Tp:focus:hover .mainmenu_ItemIcon_3xZ3Z {
-    color: var(--on-accent) !important;
+    color: var(--text) !important;
 }
 
 .mainmenu_Menu_23IDi {
@@ -85,8 +85,8 @@
 .mainmenuapprunning_NavigationMenuItem_1G0K4.gpfocus {
     animation: none;
     transform: none;
-    background: var(--accent);
-    color: var(--on-accent);
+    background: color-mix(in srgb, var(--accent) 10%, transparent);
+    color: var(--text);
     margin: 0 10px;
     padding: 8px;
     border-radius: var(--radius-sm);
@@ -143,8 +143,8 @@ img.mainmenuapprunning_CurrentGameLogo_3V3VK {
 }
 
 .controllerconfiguratorsummary_ControllerConfiguratorSummary_3TvBV .controllerconfiguratorsummary_DirectAccessButton_QAVEl:focus {
-    background: var(--accent);
-    color: var(--on-accent);
+    background: color-mix(in srgb, var(--accent) 10%, transparent);
+    color: var(--text);
 }
 
 .controllerconfiguratorsummary_ControlsListSection_nnOTT .controllerconfiguratorsummary_Title_12Taa,

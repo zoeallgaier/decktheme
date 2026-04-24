@@ -113,8 +113,8 @@
 
 .controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.gpfocus,
 .controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.controllerconfiguratorchooseconfiguration_Selected_Gp6XG.gpfocus {
-    background: var(--accent);
-    color: var(--on-accent);
+    background: color-mix(in srgb, var(--accent) 10%, transparent);
+    color: var(--text);
 }
 
 .controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.controllerconfiguratorchooseconfiguration_Selected_Gp6XG {
@@ -132,7 +132,7 @@
 .controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.gpfocus .controllerconfiguratorchooseconfiguration_InfoSection_25G91,
 .controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.gpfocus .controllerconfiguratorchooseconfiguration_Title_EI1IQ,
 .controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.gpfocus .controllerconfiguratorchooseconfiguration_Description_3XAvq {
-    color: var(--on-accent);
+    color: var(--text);
 }
 
 .controllerconfigurator_CurrentConfigurationButton_3lO3w .dropdownlabel_DropDownLabelTitle_uDBZW,

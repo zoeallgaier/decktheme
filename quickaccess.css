@@ -129,7 +129,7 @@
 .gamepaddialog_Field_S-_La.gpfocus,
 .gamepaddialog_Field_S-_La.gpfocuswithin,
 .soundtrackcontrols_QuickAccess_3_y7M.gpfocuswithin {
-    background: var(--accent) !important;
+    background: color-mix(in srgb, var(--accent) 10%, transparent) !important;
 }
 
 .gamepaddialog_Field_S-_La.gpfocus .gamepaddialog_FieldLabel_3b0U-,
@@ -137,7 +137,7 @@
 .gamepaddialog_Field_S-_La.gpfocus .gamepaddialog_FieldIcon_1sC68,
 .gamepaddialog_Field_S-_La.gpfocuswithin .gamepaddialog_FieldIcon_1sC68,
 .gamepaddialog_Field_S-_La .gamepaddialog_FieldIcon_1sC68 {
-    color: var(--on-accent) !important;
+    color: var(--text) !important;
 }
 
 /* Toggle component */
@@ -192,8 +192,8 @@ button.gamepaddialog_Button_1kn70.DialogButton.Primary:enabled {
 
 button.gamepaddialog_Button_1kn70.DialogButton.gpfocus:not(.gamepaddropdown_DropDownControlButton_28bny),
 button.gamepaddialog_Button_1kn70.DialogButton.gpfocus:enabled:not(.gamepaddropdown_DropDownControlButton_28bny) {
-    background: var(--accent) !important;
-    color: var(--on-accent) !important;
+    background: color-mix(in srgb, var(--accent) 10%, transparent) !important;
+    color: var(--text) !important;
     border-color: var(--accent);
 }
 
@@ -210,14 +210,14 @@ button.accountpanel_FatButton_TEWms svg {
 }
 
 button.accountpanel_FatButton_TEWms.accountpanel_FatButtonFocus_2rd6k {
-    background: var(--accent) !important;
+    background: color-mix(in srgb, var(--accent) 10%, transparent) !important;
 }
 
 button.accountpanel_FatButton_TEWms.accountpanel_FatButtonFocus_2rd6k .accountpanel_Label_3wadw,
 button.accountpanel_FatButton_TEWms.accountpanel_FatButtonFocus_2rd6k svg,
 button.accountpanel_FatButton_TEWms.accountpanel_FatButtonFocus_2rd6k .accountpanel_Details_3Wb9y,
 button.accountpanel_FatButton_TEWms.accountpanel_FatButtonFocus_2rd6k .accountpanel_Highlight_35ztZ {
-    color: var(--on-accent);
+    color: var(--text);
 }
 
 .accountpanel_Details_3Wb9y > .accountpanel_Highlight_35ztZ {
@@ -255,9 +255,9 @@ button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny:en
 
 button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny.gpfocus,
 button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny.gpfocus:enabled {
-    background: var(--accent) !important;
+    background: color-mix(in srgb, var(--accent) 10%, transparent) !important;
     border-color: var(--accent);
-    color: var(--on-accent) !important;
+    color: var(--text) !important;
 }
 
 /* Slider component */
@@ -365,7 +365,7 @@ button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny.gp
 
 /* QAM notification items */
 .standardtemplates_StandardTemplateContainer_1adpx.gpfocus {
-    background: var(--accent);
+    background: color-mix(in srgb, var(--accent) 10%, transparent);
 }
 
 .quickaccesscontrols_QuickAccessNotifications_2HCcx > div:not(:focus) + div:not(:focus):before {
