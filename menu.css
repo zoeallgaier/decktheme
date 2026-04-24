@@ -1,0 +1,293 @@
+/* Settings Menu */
+.gamepadpagedsettings_PagedSettingsDialog_PageListColumn_2EZ3o,
+.gamepadpage_GamepadPage_2FqpD.gamepadpage_DialogBackground_2msTK,
+.gamepadui_OpaqueBackground_b084m .gamepadui_Content_1FxmN {
+    background: var(--md-sys-color-surface-container);
+    border: none;
+}
+
+.gamepadpagedsettings_PagedSettingDialog_ContentColumn_3JPle{
+    background: var(--md-sys-color-surface);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: var(--basicui-header-height);
+}
+
+.DialogContent.gamepadpagedsettings_PagedSettingsDialog_PageContent_wIOLO {
+    padding: calc(12px + 1.4vw) 2.8vw;
+}
+
+.gamepadpagedsettings_PagedSettingDialog_ContentColumn_3JPle .gamepaddialog_GamepadDialogContent_3joNk .DialogHeader {
+    display: none;
+}
+
+.gamepadpagedsettings_PagedSettingsDialog_PageListItem_1ix7r.gamepadpagedsettings_Active_22LLB {
+    transform: none;
+    padding: 2px 0;
+    margin: 0;
+    animation: none;
+    background: transparent;
+}
+
+.gamepadpagedsettings_PagedSettingsDialog_PageListItem_1ix7r.gamepadpagedsettings_Active_22LLB:focus {
+    background: var(--md-sys-color-surface-container-highest);
+}
+
+.gamepadpagedsettings_PageListItem_Title_2PPLv,
+.gamepadpagedsettings_PagedSettingsDialog_Title_1Px9u {
+    color: var(--md-sys-color-on-surface-variant);
+}
+
+.gamepadpagedsettings_PagedSettingsDialog_PageListItem_1ix7r.gamepadpagedsettings_Active_22LLB > .gamepadpagedsettings_PageListItem_Title_2PPLv {
+    padding: 15px 10px;
+    margin: 0 calc(2px + 1.4vw);
+    background: var(--md-sys-color-secondary);
+    color: var(--md-sys-color-on-secondary);
+    border-radius: 5px;
+}
+
+.gamepadpagedsettings_PagedSettingsDialog_PageListItem_1ix7r.gamepadpagedsettings_Active_22LLB > .gamepadpagedsettings_PageListItem_Icon_1F_5Q {
+    margin-right: -5px;
+    margin-left: 23px;
+}
+
+.gamepadpagedsettings_PageListItem_Icon_1F_5Q,
+.BasicUI .gamepaddialog_GamepadDialogContent_3joNk .DialogControlsSectionHeader {
+    color: var(--md-sys-color-on-surface);
+}
+
+.customizationsettings_StartupMoviesSelectionDesc_gfecK,
+.BasicUI .gamepaddialog_GamepadDialogContent_3joNk .DialogSubHeader,
+.remoteplaysettings_TableHeader_1HL6K {
+    color: var(--md-sys-color-on-surface-variant);
+}
+
+.gamepadpagedsettings_Separator_3vV7l {
+    height: 0;
+}
+
+.gamepadpagedsettings_PagedSettingDialog_ContentColumn_3JPle .DialogBody > button:first-child {
+    top: 5px !important;
+    left: 5px;
+}
+
+.gamepadpagedsettings_PagedSettingDialog_ContentColumn_3JPle .DialogBody:not(:first-child) {
+    margin-top: 20px;
+}
+
+.BasicUI .contentmanagement_ContentManagement_3wk64 {
+    background: transparent;
+}
+
+
+/* Controller Layout Menu */
+
+.controllerconfigurator_ControllerConfiguratorMain_APY6j {
+    background: var(--md-sys-color-surface);
+}
+
+.controllerconfigurator_TopSection_20sN9,
+.controllerconfigurator_CommunityConfigsCallout_1xfC8,
+.controllerconfigurator_BottomSection_3RsRf {
+    background: transparent;
+}
+
+.controllerconfigurator_CurrentConfigurationButton_3lO3w .controllerconfigurator_CommunityConfigCalloutPresent_1L7Yn,
+.controllerconfigurator_CurrentConfigurationButton_3lO3w .dropdownlabel_DropDownLabelUpperDescription_2_JN3,
+.gpfocus .controllerconfigurator_CommunityConfigCalloutContainer_10WYX .controllerconfigurator_CommunityConfigCalloutPresent_1L7Yn {
+    color: var(--md-sys-color-on-primary);
+}
+
+.controllerconfiguratorchooseconfiguration_OuterColumn_1Udh1 h1 {
+    color: var(--md-sys-color-on-surface);
+}
+
+.controllerconfiguratorchooseconfiguration_OuterColumn_1Udh1 p {
+    color: var(--md-sys-color-on-surface-variant);
+}
+
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN,
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.controllerconfiguratorchooseconfiguration_Selected_Gp6XG {
+    background: var(--md-sys-color-primary-container);
+    color: var(--md-sys-color-on-primary-container);
+}
+
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.gpfocus,
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.controllerconfiguratorchooseconfiguration_Selected_Gp6XG.gpfocus {
+    background: var(--md-sys-color-inverse-surface);
+    color: var(--md-sys-color-inverse-on-surface);
+}
+
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.controllerconfiguratorchooseconfiguration_Selected_Gp6XG {
+    border-left-color: var(--md-sys-color-primary);
+}
+
+.controllerconfiguratorchooseconfiguration_Author_1dzOH,
+.controllerconfiguratorchooseconfiguration_InfoSection_25G91,
+.controllerconfiguratorchooseconfiguration_Title_EI1IQ,
+.controllerconfiguratorchooseconfiguration_Description_3XAvq {
+    color: var(--md-sys-color-on-primary-container);
+}
+
+.controllerconfigurator_CurrentConfigurationButton_3lO3w .dropdownlabel_DropDownLabelTitle_uDBZW {
+    color: var(--md-sys-color-on-primary);
+}
+
+.controllerconfigurator_CurrentConfigurationButton_3lO3w.gpfocus .dropdownlabel_DropDownLabelTitle_uDBZW {
+    color: var(--md-sys-color-inverse-on-surface);
+}
+
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.gpfocus .controllerconfiguratorchooseconfiguration_Author_1dzOH,
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.gpfocus .controllerconfiguratorchooseconfiguration_InfoSection_25G91,
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.gpfocus .controllerconfiguratorchooseconfiguration_Title_EI1IQ,
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.gpfocus .controllerconfiguratorchooseconfiguration_Description_3XAvq {
+    color: var(--md-sys-color-inverse-on-surface);
+}
+
+.controllerconfigurator_QuickSettingsHeader_3gVR5,
+.controllerconfigurator_TopSectionHeader_1a_D6,
+.controllerconfigurator_CommunityConfigsCallout_1xfC8 .controllerconfigurator_Description_38ea5 .controllerconfigurator_SubTitle_2-E4i {
+    color: var(--md-sys-color-on-surface-variant);
+}
+
+/* Storage Menu */
+
+/* Storage Menu Top Drive Select */
+.BasicUI .contentmanagement_InstallFolder_12aBP.contentmanagement_IsSelected_3VQeL {
+    background: transparent;
+    color: var(--md-sys-color-on-surface);
+    border-bottom: 4px solid var(--md-sys-color-primary);
+}
+
+.contentmanagement_DriveName_1rihl,
+.contentmanagement_DriveSize_5bG9I,
+.contentmanagement_InstallFolder_12aBP,
+.contentmanagement_IsSelected_3VQeL svg,
+.contentmanagement_IsSelected_3VQeL .contentmanagement_DriveName_1rihl, .contentmanagement_IsSelected_3VQeL .contentmanagement_DriveSize_5bG9I, .contentmanagement_IsSelected_3VQeL svg {
+    color: var(--md-sys-color-on-surface);
+}
+
+.BasicUI .contentmanagement_InstallFolder_12aBP {
+    border-radius: 0;
+    border-bottom: 2px solid var(--md-sys-color-outline);
+}
+
+.BasicUI .contentmanagement_InstallFolder_12aBP:focus {
+    background: var(--md-sys-color-surface-container-highest);
+}
+
+.BasicUI .contentmanagement_InstallFolder_12aBP:focus .contentmanagement_DriveName_1rihl, 
+.BasicUI .contentmanagement_InstallFolder_12aBP:focus .contentmanagement_DriveSize_5bG9I, 
+.BasicUI .contentmanagement_InstallFolder_12aBP:focus svg {
+    color: var(--md-sys-color-on-surface);
+}
+
+
+/* Storage Menu Other */
+
+.contentmanagement_DriveSettingsButton_1WKUO:hover, .contentmanagement_DriveSettingsButton_1WKUO:focus {
+    background: var(--md-sys-color-inverse-surface);
+    color: var(--md-sys-color-inverse-on-surface);
+}
+
+.contentmanagement_DriveSettingsButton_1WKUO {
+    position: absolute;
+    top: 107px;
+    right: 33px;
+    margin: 0;
+    height: 10px;
+    border-radius: 25px;
+    width: 25px;
+    background: var(--md-sys-color-tertiary);
+    color: vaR(--md-sys-color-on-tertiary);
+}
+
+.contentmanagement_DriveUsageText_1DFCG,
+.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppHeader_3_uaa,
+.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyLeft_d9dlN .contentmanagement_AppName_YxhO6,
+.contentmanagement_LibraryContent_ybEU2 .contentmanagement_DriveUsage_1LvKJ .contentmanagement_DriveName_1rihl {
+    color: var(--md-sys-color-on-surface);
+}
+
+.BasicUI .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyLeft_d9dlN .contentmanagement_AppInfo__g4ce .contentmanagement_AppUsageValue_2B8dj,
+.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyLeft_d9dlN .contentmanagement_AppInfo__g4ce svg,
+.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppHeader_3_uaa .contentmanagement_AppHeaderValue_3X3BB {
+    color: var(--md-sys-color-on-surface-variant);
+}
+
+.contentmanagement_DriveUsageNumber_181OY,
+.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyRight_3vHX3 .contentmanagement_AppSize_mohK9
+{
+    color: var(--md-sys-color-primary);
+}
+
+.sortingdropdowncontrolbutton_BasicHomeDropDownControlButton_17SQW.sortingdropdowncontrolbutton_SortingDropDownControlButton_2ddeJ {
+    background: var(--md-sys-color-tertiary);
+    color: var(--md-sys-color-on-tertiary);
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+
+.sortingdropdowncontrolbutton_BasicHomeDropDownControlButton_17SQW:focus {
+    background: var(--md-sys-color-inverse-surface);
+    color: var(--md-sys-color-inverse-on-surface);
+}
+
+.BasicUI .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBody_2RCSU:focus {
+    background: var(--md-sys-color-surface-container-highest);
+}
+
+/* Add a friend */
+
+.friendinvites_AddFriendSection_3BjIx .friendinvites_Title_1ZEdD,
+.friendinvites_FriendCodeSection_39nte .friendinvites_Caption__XK9j  {
+    color: var(--md-sys-color-on-surface);
+}
+
+.friendinvites_AddFriendSection_3BjIx .friendinvites_Description_KI_gF {
+    color: var(--md-sys-color-on-surface-variant);
+}
+
+.friendinvites_InvitesList_3i8Fo {
+    background: var(--md-sys-color-surface);
+}
+
+.friendinvites_FriendCodeSection_39nte .friendinvites_FriendCode_27408 {
+    background: var(--md-sys-color-primary);
+}
+
+.friendinvites_FriendCodeSection_39nte .friendinvites_Code_1-bTQ {
+    color: var(--md-sys-color-on-primary);
+}
+
+.friendinvites_TopSection_2uvvl {
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+
+.friendinvites_AddFriendSection_3BjIx,
+.friendinvites_FriendCodeSection_39nte {
+    margin: 0 auto;
+}
+
+.friendinvites_FriendCodeSection_39nte {
+    flex-direction: column-reverse;
+    gap: 4px;
+}
+
+/* Library Tab Settings */ 
+
+.BasicUI .librarysettings_LibrarySettings_2nsOY {
+    background: transparent;
+}
+
+/* Library Tab */
+.gamepadtabbedpage_GamepadTabbedPage_3IBLc.gamepadtabbedpage_IsUnderHeader_31Zle .gamepadtabbedpage_TabHeaderRowWrapper_2Jobs::before, 
+.gamepadtabbedpage_TabHeaderRowWrapper_2Jobs.gamepadtabbedpage_ScrolledDown_1jNhb::before {
+    box-shadow: none;
+    background: var(--md-sys-color-surface-container);
+}
+
+.gamepadtabbedpage_FixCenterAlignScroll_1CJeU {
+    padding-bottom: 0;
+}

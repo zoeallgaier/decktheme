@@ -1,0 +1,73 @@
+.audio_VolumePopin_2iUUM .gamepadslider_SliderTrack_Mq25N::after {
+    content: "";
+    position: absolute;
+    --normalized-fill-start: calc( ( 100% ) * min( var( --normalized-slider-value ), var( --normalized-slider-origin ) ) );
+    --normalized-fill-end: calc( ( 100% ) * max( var( --normalized-slider-value ), var( --normalized-slider-origin ) ) );
+    --normalized-width-handle: calc( var( --normalized-fill-end ) - var( --normalized-fill-start ) );
+    left: calc(var(--normalized-fill-start) + var(--normalized-width-handle) + 4px);
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 16px;
+    margin-top: -9px;
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    background: var(--md-sys-color-on-primary);
+    height: 24px;
+}
+
+.audio_VolumePopin_2iUUM .gamepadslider_SliderTrack_Mq25N {
+    overflow: visible;
+    margin-right: 5%;
+    width: 95%;
+}
+
+.audio_VolumePopin_2iUUM .gamepadslider_SliderTrack_Mq25N::before {
+    border-radius: 50px;
+    height: 400%;
+    margin-top: -9px;
+    width: calc(var(--normalized-width-handle) + 24px);
+}
+
+.audio_VolumePopin_2iUUM {
+    background: var(--md-sys-color-surface-container-highest);
+    border-radius: 25px;
+    padding-right: 10px;
+}
+
+.audio_VolumePopin_2iUUM .gamepadslider_SliderControlWithIcon_2M8Pt .gamepadslider_Icon_21uKi,
+.audio_VolumePopin_2iUUM .gamepaddialog_FieldIcon_1sC68 {
+    display: none;
+}
+
+.audio_VolumePopin_2iUUM .gamepadslider_SliderControl_3o137 {
+    height: fit-content;
+    margin: 10px 0;
+    background: var(--md-sys-color-primary-fixed);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 100%;
+}
+
+.audio_VolumePopin_2iUUM .audio_VolumeSliderPosition_1_hv3 {
+    padding-left: 7px;
+    padding-right: 7px;
+    overflow: visible;
+}
+
+.audio_VolumePopin_2iUUM.audio_VolumePopinHidden_1OwmL {
+    animation: anim_extend_volume_timer 3s;
+}
+
+@keyframes anim_extend_volume_timer {
+    0% {
+        transform: none;
+    }
+    80% {
+        transform: none;
+    }
+    100% {
+        transform: translateY(-150%);
+    }
+}

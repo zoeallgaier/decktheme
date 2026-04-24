@@ -1,0 +1,143 @@
+{
+  "name": "Material You",
+  "author": "SuchMeme",
+  "version": "v1.5",
+  "manifest_version": 8,
+  "tabs": {
+    "all": [
+      "bigpicture",
+      "bigpictureoverlay",
+      "notificationtoasts.*"
+    ]
+  },
+  "dependencies": {
+    "Focus Highlight Color": {},
+    "No Home Edge Fade": {},
+    "Library Move Extra Info": {},
+    "BPM Settings Storage No Padding": {}
+  },
+  "inject": {
+    "quickaccess.css": [
+      "bigpicture",
+      "bigpictureoverlay"
+    ],
+    "modals.css": [
+      "bigpicture"
+    ],
+    "menu.css": [
+      "bigpicture"
+    ],
+    "bars.css": [
+      "bigpicture",
+      "bigpictureoverlay"
+    ],
+    "home.css": [
+      "bigpicture"
+    ],
+    "mainmenu.css": [
+      "bigpictureoverlay"
+    ],
+    "gameview.css": [
+      "bigpicture"
+    ],
+    "volume.css": [
+      "bigpicture"
+    ],
+    "notification.css": [
+      "notificationtoasts.*"
+    ],
+    "downloads.css": [
+      "bigpicture"
+    ]
+  },
+  "patches": {
+    "Dark Mode": {
+      "type": "checkbox",
+      "values": {
+        "Yes": {
+          "dark.css": [
+            "all"
+          ]
+        },
+        "No": {
+          "light.css": [
+            "all"
+          ]
+        }
+      }
+    },
+    "Color": {
+      "type": "dropdown",
+      "default": "Bondi Blue",
+      "values": {
+        "Bondi Blue": {
+          "palettes/bondi.css": [
+            "all"
+          ]
+        },
+        "Blueberry": {
+          "palettes/blueberry.css": [
+            "all"
+          ]
+        },
+        "Grape": {
+          "palettes/grape.css": [
+            "all"
+          ]
+        },
+        "Tangerine": {
+          "palettes/tangerine.css": [
+            "all"
+          ]
+        },
+        "Lime": {
+          "palettes/lime.css": [
+            "all"
+          ]
+        },
+        "Strawberry": {
+          "palettes/strawberry.css": [
+            "all"
+          ]
+        },
+        "Graphite": {
+          "palettes/graphite.css": [
+            "all"
+          ]
+        },
+        "Ruby": {
+          "palettes/ruby.css": [
+            "all"
+          ]
+        },
+        "Sage": {
+          "palettes/sage.css": [
+            "all"
+          ]
+        },
+        "Snow": {
+          "palettes/snow.css": [
+            "all"
+          ]
+        },
+        "Indigo": {
+          "palettes/indigo.css": [
+            "all"
+          ]
+        }
+      }
+    },
+    "Invert SVG": {
+      "type": "checkbox",
+      "values": {
+        "No": {},
+        "Yes": {
+          "invertsvg.css": [
+            "all"
+          ]
+        }
+      }
+    }
+  },
+  "id": "2b1f81e3-1cb3-4aab-9c60-ee15714c00b2"
+}
